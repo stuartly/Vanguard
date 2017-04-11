@@ -1,0 +1,41 @@
+trainData shape is (944, 45)
+trainData shape is (405, 45)
+Start training RF
+RF training time is 0:00:00.309722
+Start evaluate RF
+RF predicte time is 0:00:00.044606
+crosstab:col_0   0    1
+45            
+0      97   61
+1      23  224
+accuracy_score:0.792592592593
+0precision_score:0.808333333333
+0recall_score:0.613924050633
+1precision_score:0.785964912281
+1recall_score:0.906882591093
+1. feature 39 (0.141305)(name = 39)2. feature 32 (0.097809)(name = 32)3. feature 4 (0.078002)(name = 4)4. feature 8 (0.061811)(name = 8)5. feature 38 (0.052067)(name = 38)6. feature 0 (0.031450)(name = 0)7. feature 29 (0.031219)(name = 29)8. feature 23 (0.030520)(name = 23)9. feature 33 (0.027259)(name = 33)10. feature 6 (0.026951)(name = 6)11. feature 11 (0.026584)(name = 11)12. feature 31 (0.026157)(name = 31)13. feature 36 (0.024915)(name = 36)14. feature 35 (0.024792)(name = 35)15. feature 16 (0.022980)(name = 16)16. feature 37 (0.021103)(name = 37)17. feature 42 (0.020426)(name = 42)18. feature 43 (0.019763)(name = 43)19. feature 9 (0.019512)(name = 9)20. feature 7 (0.017571)(name = 7)21. feature 14 (0.016721)(name = 14)22. feature 15 (0.016699)(name = 15)23. feature 3 (0.016048)(name = 3)24. feature 24 (0.015671)(name = 24)25. feature 1 (0.013859)(name = 1)26. feature 28 (0.012211)(name = 28)27. feature 30 (0.010131)(name = 30)28. feature 18 (0.009647)(name = 18)29. feature 25 (0.009612)(name = 25)30. feature 27 (0.009203)(name = 27)31. feature 19 (0.008458)(name = 19)32. feature 40 (0.008431)(name = 40)33. feature 2 (0.007353)(name = 2)34. feature 13 (0.007305)(name = 13)35. feature 41 (0.007295)(name = 41)36. feature 34 (0.006409)(name = 34)37. feature 12 (0.006037)(name = 12)38. feature 5 (0.005328)(name = 5)39. feature 20 (0.005091)(name = 20)40. feature 21 (0.003133)(name = 21)41. feature 17 (0.001658)(name = 17)42. feature 44 (0.000610)(name = 44)43. feature 10 (0.000496)(name = 10)44. feature 22 (0.000398)(name = 22)45. feature 26 (0.000000)(name = 26)Start training DT
+DT training time is 0:00:00.004947
+Start evaluate DT
+DT predicte time is 0:00:00.000172
+crosstab:col_0    0    1
+45             
+0      118   40
+1       42  205
+accuracy_score:0.797530864198
+0precision_score:0.7375
+0recall_score:0.746835443038
+1precision_score:0.836734693878
+1recall_score:0.82995951417
+Start training GBDT
+GBDT training time is 0:00:00.160594
+Start evaluate GBDT
+GBDT predicte time is 0:00:00.000939
+crosstab:col_0    0    1
+45             
+0      108   50
+1       25  222
+accuracy_score:0.814814814815
+0precision_score:0.812030075188
+0recall_score:0.683544303797
+1precision_score:0.816176470588
+1recall_score:0.898785425101

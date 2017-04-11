@@ -1,0 +1,223 @@
+trainData shape is (4944, 45)
+trainData shape is (2120, 45)
+Start training RF
+RF training time is 0:00:00.373581
+Start evaluate RF
+RF predicte time is 0:00:00.050243
+crosstab:col_0   0     1
+45             
+0      64   415
+1       6  1635
+accuracy_score:0.80141509434
+0precision_score:0.914285714286
+0recall_score:0.133611691023
+1precision_score:0.79756097561
+1recall_score:0.99634369287
+1. feature 39 (0.123459)(name = 39)2. feature 29 (0.090715)(name = 29)3. feature 8 (0.082803)(name = 8)4. feature 38 (0.069433)(name = 38)5. feature 9 (0.048066)(name = 9)6. feature 7 (0.046155)(name = 7)7. feature 30 (0.038409)(name = 30)8. feature 32 (0.035944)(name = 32)9. feature 4 (0.035813)(name = 4)10. feature 42 (0.030972)(name = 42)11. feature 16 (0.028294)(name = 16)12. feature 36 (0.027725)(name = 36)13. feature 37 (0.027135)(name = 37)14. feature 35 (0.024258)(name = 35)15. feature 19 (0.024092)(name = 19)16. feature 15 (0.022690)(name = 15)17. feature 43 (0.021354)(name = 43)18. feature 5 (0.020687)(name = 5)19. feature 33 (0.018782)(name = 33)20. feature 6 (0.017515)(name = 6)21. feature 1 (0.017038)(name = 1)22. feature 12 (0.013896)(name = 12)23. feature 0 (0.013822)(name = 0)24. feature 34 (0.011416)(name = 34)25. feature 11 (0.010883)(name = 11)26. feature 20 (0.009952)(name = 20)27. feature 40 (0.009871)(name = 40)28. feature 17 (0.008842)(name = 17)29. feature 3 (0.008478)(name = 3)30. feature 24 (0.007195)(name = 24)31. feature 14 (0.006297)(name = 14)32. feature 31 (0.006278)(name = 31)33. feature 28 (0.005972)(name = 28)34. feature 23 (0.005764)(name = 23)35. feature 25 (0.004944)(name = 25)36. feature 18 (0.004305)(name = 18)37. feature 41 (0.004252)(name = 41)38. feature 21 (0.004008)(name = 21)39. feature 2 (0.003961)(name = 2)40. feature 13 (0.003404)(name = 13)41. feature 44 (0.003068)(name = 44)42. feature 26 (0.001246)(name = 26)43. feature 27 (0.000517)(name = 27)44. feature 22 (0.000290)(name = 22)45. feature 10 (0.000000)(name = 10)Start training DT
+DT training time is 0:00:00.023001
+Start evaluate DT
+DT predicte time is 0:00:00.000596
+crosstab:col_0    0     1
+45              
+0      178   301
+1       98  1543
+accuracy_score:0.81179245283
+0precision_score:0.644927536232
+0recall_score:0.371607515658
+1precision_score:0.836767895879
+1recall_score:0.94028031688
+Start training GBDT
+GBDT training time is 0:00:00.579295
+Start evaluate GBDT
+GBDT predicte time is 0:00:00.003210
+crosstab:col_0    0     1
+45              
+0      118   361
+1       46  1595
+accuracy_score:0.808018867925
+0precision_score:0.719512195122
+0recall_score:0.246346555324
+1precision_score:0.815439672802
+1recall_score:0.971968312005
+trainData shape is (1104, 45)
+trainData shape is (474, 45)
+Start training RF
+RF training time is 0:00:00.260899
+Start evaluate RF
+RF predicte time is 0:00:00.045593
+crosstab:col_0    0   1
+45            
+0      428   0
+1       32  14
+accuracy_score:0.932489451477
+0precision_score:0.930434782609
+0recall_score:1.0
+1precision_score:1.0
+1recall_score:0.304347826087
+1. feature 38 (0.182148)(name = 38)2. feature 39 (0.077498)(name = 39)3. feature 29 (0.066384)(name = 29)4. feature 8 (0.047201)(name = 8)5. feature 20 (0.045308)(name = 20)6. feature 42 (0.037857)(name = 42)7. feature 37 (0.036269)(name = 37)8. feature 4 (0.030552)(name = 4)9. feature 15 (0.027458)(name = 15)10. feature 32 (0.027424)(name = 32)11. feature 28 (0.027214)(name = 28)12. feature 36 (0.026685)(name = 36)13. feature 11 (0.025585)(name = 11)14. feature 9 (0.025210)(name = 9)15. feature 0 (0.024049)(name = 0)16. feature 7 (0.022801)(name = 7)17. feature 34 (0.020410)(name = 34)18. feature 23 (0.019232)(name = 23)19. feature 1 (0.018693)(name = 1)20. feature 19 (0.017621)(name = 19)21. feature 33 (0.017211)(name = 33)22. feature 35 (0.015192)(name = 35)23. feature 40 (0.015003)(name = 40)24. feature 16 (0.014351)(name = 16)25. feature 43 (0.014009)(name = 43)26. feature 3 (0.013231)(name = 3)27. feature 6 (0.012590)(name = 6)28. feature 30 (0.012504)(name = 30)29. feature 13 (0.012315)(name = 13)30. feature 12 (0.011253)(name = 12)31. feature 24 (0.011157)(name = 24)32. feature 14 (0.010561)(name = 14)33. feature 5 (0.006761)(name = 5)34. feature 2 (0.006320)(name = 2)35. feature 31 (0.005031)(name = 31)36. feature 25 (0.003830)(name = 25)37. feature 17 (0.003532)(name = 17)38. feature 41 (0.002932)(name = 41)39. feature 18 (0.002831)(name = 18)40. feature 44 (0.001440)(name = 44)41. feature 22 (0.000924)(name = 22)42. feature 27 (0.000893)(name = 27)43. feature 21 (0.000528)(name = 21)44. feature 10 (0.000000)(name = 10)45. feature 26 (0.000000)(name = 26)Start training DT
+DT training time is 0:00:00.005042
+Start evaluate DT
+DT predicte time is 0:00:00.000173
+crosstab:col_0    0   1
+45            
+0      407  21
+1       21  25
+accuracy_score:0.911392405063
+0precision_score:0.950934579439
+0recall_score:0.950934579439
+1precision_score:0.54347826087
+1recall_score:0.54347826087
+Start training GBDT
+GBDT training time is 0:00:00.165384
+Start evaluate GBDT
+GBDT predicte time is 0:00:00.000905
+crosstab:col_0    0   1
+45            
+0      423   5
+1       29  17
+accuracy_score:0.928270042194
+0precision_score:0.935840707965
+0recall_score:0.988317757009
+1precision_score:0.772727272727
+1recall_score:0.369565217391
+trainData shape is (1104, 45)
+trainData shape is (474, 45)
+Start training RF
+RF training time is 0:00:00.265345
+Start evaluate RF
+RF predicte time is 0:00:00.044581
+crosstab:col_0    0   1
+45            
+0      422   0
+1       41  11
+accuracy_score:0.913502109705
+0precision_score:0.911447084233
+0recall_score:1.0
+1precision_score:1.0
+1recall_score:0.211538461538
+1. feature 38 (0.199327)(name = 38)2. feature 39 (0.088874)(name = 39)3. feature 29 (0.052572)(name = 29)4. feature 8 (0.044124)(name = 8)5. feature 37 (0.043108)(name = 37)6. feature 42 (0.042948)(name = 42)7. feature 4 (0.033880)(name = 4)8. feature 36 (0.030288)(name = 36)9. feature 33 (0.029979)(name = 33)10. feature 15 (0.027401)(name = 15)11. feature 9 (0.025248)(name = 9)12. feature 28 (0.022024)(name = 28)13. feature 35 (0.021671)(name = 35)14. feature 19 (0.020974)(name = 19)15. feature 0 (0.020764)(name = 0)16. feature 11 (0.020524)(name = 11)17. feature 32 (0.020131)(name = 32)18. feature 7 (0.018402)(name = 7)19. feature 40 (0.018148)(name = 40)20. feature 20 (0.017189)(name = 20)21. feature 23 (0.016583)(name = 23)22. feature 3 (0.016317)(name = 3)23. feature 24 (0.016252)(name = 24)24. feature 12 (0.014375)(name = 12)25. feature 1 (0.014192)(name = 1)26. feature 16 (0.013793)(name = 16)27. feature 30 (0.012820)(name = 30)28. feature 43 (0.012131)(name = 43)29. feature 41 (0.009720)(name = 41)30. feature 34 (0.009659)(name = 34)31. feature 14 (0.008358)(name = 14)32. feature 6 (0.007866)(name = 6)33. feature 13 (0.007864)(name = 13)34. feature 5 (0.007403)(name = 5)35. feature 17 (0.007218)(name = 17)36. feature 2 (0.007041)(name = 2)37. feature 31 (0.006278)(name = 31)38. feature 25 (0.004015)(name = 25)39. feature 21 (0.003285)(name = 21)40. feature 44 (0.002543)(name = 44)41. feature 18 (0.001664)(name = 18)42. feature 27 (0.001539)(name = 27)43. feature 22 (0.001362)(name = 22)44. feature 26 (0.000147)(name = 26)45. feature 10 (0.000000)(name = 10)Start training DT
+DT training time is 0:00:00.004596
+Start evaluate DT
+DT predicte time is 0:00:00.000173
+crosstab:col_0    0   1
+45            
+0      413   9
+1       20  32
+accuracy_score:0.938818565401
+0precision_score:0.953810623557
+0recall_score:0.978672985782
+1precision_score:0.780487804878
+1recall_score:0.615384615385
+Start training GBDT
+GBDT training time is 0:00:00.158561
+Start evaluate GBDT
+GBDT predicte time is 0:00:00.000858
+crosstab:col_0    0   1
+45            
+0      419   3
+1       28  24
+accuracy_score:0.934599156118
+0precision_score:0.937360178971
+0recall_score:0.992890995261
+1precision_score:0.888888888889
+1recall_score:0.461538461538
+trainData shape is (1104, 45)
+trainData shape is (474, 45)
+Start training RF
+RF training time is 0:00:00.257375
+Start evaluate RF
+RF predicte time is 0:00:00.044731
+crosstab:col_0    0   1
+45            
+0      423   1
+1       36  14
+accuracy_score:0.92194092827
+0precision_score:0.921568627451
+0recall_score:0.997641509434
+1precision_score:0.933333333333
+1recall_score:0.28
+1. feature 38 (0.140926)(name = 38)2. feature 39 (0.106547)(name = 39)3. feature 29 (0.071577)(name = 29)4. feature 8 (0.058877)(name = 8)5. feature 42 (0.037168)(name = 42)6. feature 37 (0.036947)(name = 37)7. feature 36 (0.035560)(name = 36)8. feature 4 (0.033885)(name = 4)9. feature 9 (0.033641)(name = 9)10. feature 23 (0.030383)(name = 23)11. feature 7 (0.028857)(name = 7)12. feature 0 (0.023822)(name = 0)13. feature 43 (0.022177)(name = 43)14. feature 33 (0.021853)(name = 33)15. feature 15 (0.021740)(name = 15)16. feature 35 (0.021254)(name = 35)17. feature 32 (0.020315)(name = 32)18. feature 11 (0.019655)(name = 11)19. feature 1 (0.018527)(name = 1)20. feature 34 (0.018375)(name = 34)21. feature 24 (0.017687)(name = 24)22. feature 3 (0.017272)(name = 3)23. feature 20 (0.016427)(name = 20)24. feature 16 (0.014787)(name = 16)25. feature 19 (0.014207)(name = 19)26. feature 2 (0.013383)(name = 2)27. feature 14 (0.013134)(name = 14)28. feature 13 (0.012431)(name = 13)29. feature 30 (0.010303)(name = 30)30. feature 40 (0.010106)(name = 40)31. feature 12 (0.009817)(name = 12)32. feature 41 (0.008602)(name = 41)33. feature 6 (0.008010)(name = 6)34. feature 28 (0.007262)(name = 28)35. feature 5 (0.007030)(name = 5)36. feature 17 (0.004597)(name = 17)37. feature 31 (0.004370)(name = 31)38. feature 25 (0.003292)(name = 25)39. feature 44 (0.002565)(name = 44)40. feature 22 (0.001091)(name = 22)41. feature 18 (0.001047)(name = 18)42. feature 21 (0.000495)(name = 21)43. feature 10 (0.000000)(name = 10)44. feature 26 (0.000000)(name = 26)45. feature 27 (0.000000)(name = 27)Start training DT
+DT training time is 0:00:00.004261
+Start evaluate DT
+DT predicte time is 0:00:00.000152
+crosstab:col_0    0   1
+45            
+0      401  23
+1       19  31
+accuracy_score:0.911392405063
+0precision_score:0.954761904762
+0recall_score:0.945754716981
+1precision_score:0.574074074074
+1recall_score:0.62
+Start training GBDT
+GBDT training time is 0:00:00.154707
+Start evaluate GBDT
+GBDT predicte time is 0:00:00.000826
+crosstab:col_0    0   1
+45            
+0      414  10
+1       27  23
+accuracy_score:0.92194092827
+0precision_score:0.938775510204
+0recall_score:0.97641509434
+1precision_score:0.69696969697
+1recall_score:0.46
+crosstab:col_0  0.0  1.0
+45             
+0      376   48
+1       19   31
+accuracy_score:0.85864978903
+0precision_score:0.951898734177
+0recall_score:0.88679245283
+1precision_score:0.392405063291
+1recall_score:0.62
+trainData shape is (1104, 45)
+trainData shape is (474, 45)
+Start training RF
+RF training time is 0:00:00.256162
+Start evaluate RF
+RF predicte time is 0:00:00.045163
+crosstab:col_0    0  1
+45           
+0      424  3
+1       39  8
+accuracy_score:0.911392405063
+0precision_score:0.915766738661
+0recall_score:0.992974238876
+1precision_score:0.727272727273
+1recall_score:0.170212765957
+1. feature 38 (0.191650)(name = 38)2. feature 39 (0.107267)(name = 39)3. feature 29 (0.066917)(name = 29)4. feature 8 (0.046995)(name = 8)5. feature 37 (0.034876)(name = 37)6. feature 4 (0.031970)(name = 4)7. feature 9 (0.030757)(name = 9)8. feature 0 (0.029818)(name = 0)9. feature 20 (0.028114)(name = 20)10. feature 42 (0.027850)(name = 42)11. feature 32 (0.027137)(name = 32)12. feature 36 (0.025425)(name = 36)13. feature 35 (0.024812)(name = 35)14. feature 33 (0.022938)(name = 33)15. feature 43 (0.022457)(name = 43)16. feature 11 (0.019685)(name = 11)17. feature 28 (0.019209)(name = 28)18. feature 40 (0.017930)(name = 40)19. feature 15 (0.017913)(name = 15)20. feature 16 (0.017665)(name = 16)21. feature 24 (0.016720)(name = 24)22. feature 7 (0.016263)(name = 7)23. feature 19 (0.014276)(name = 19)24. feature 34 (0.013307)(name = 34)25. feature 13 (0.012563)(name = 13)26. feature 6 (0.011924)(name = 6)27. feature 3 (0.011323)(name = 3)28. feature 12 (0.011153)(name = 12)29. feature 1 (0.010998)(name = 1)30. feature 5 (0.009190)(name = 5)31. feature 30 (0.008619)(name = 30)32. feature 14 (0.008480)(name = 14)33. feature 2 (0.007038)(name = 2)34. feature 23 (0.006732)(name = 23)35. feature 31 (0.005635)(name = 31)36. feature 21 (0.004841)(name = 21)37. feature 41 (0.004112)(name = 41)38. feature 17 (0.003368)(name = 17)39. feature 25 (0.003204)(name = 25)40. feature 18 (0.002729)(name = 18)41. feature 22 (0.002598)(name = 22)42. feature 27 (0.002403)(name = 27)43. feature 44 (0.001139)(name = 44)44. feature 10 (0.000000)(name = 10)45. feature 26 (0.000000)(name = 26)Start training DT
+DT training time is 0:00:00.004909
+Start evaluate DT
+DT predicte time is 0:00:00.000169
+crosstab:col_0    0   1
+45            
+0      406  21
+1       15  32
+accuracy_score:0.924050632911
+0precision_score:0.964370546318
+0recall_score:0.950819672131
+1precision_score:0.603773584906
+1recall_score:0.68085106383
+Start training GBDT
+GBDT training time is 0:00:00.159044
+Start evaluate GBDT
+GBDT predicte time is 0:00:00.000802
+crosstab:col_0    0   1
+45            
+0      416  11
+1       22  25
+accuracy_score:0.930379746835
+0precision_score:0.949771689498
+0recall_score:0.974238875878
+1precision_score:0.694444444444
+1recall_score:0.531914893617
+crosstab:col_0  0.0  1.0
+45             
+0      368   59
+1       23   24
+accuracy_score:0.827004219409
+0precision_score:0.941176470588
+0recall_score:0.861826697892
+1precision_score:0.289156626506
+1recall_score:0.510638297872

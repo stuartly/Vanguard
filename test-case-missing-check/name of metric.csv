@@ -1,0 +1,45 @@
+#TotalBasicArithmeticOp
+#TotalIncreDecre
+#TotalShiftOp
+#TotalBitOp
+#PointerVar
+#ArrayVar
+#UserDefinedVar
+#BasicTypeVar
+#ParameterVar
+#LocalVar
+#GlobalVar
+#VarInvolvedInBasicArithmetic
+#VarInvolvedInIncreDecre
+#VarInvolvedInShiftOp
+#VarInvolvedInBitOp
+#VarInvolvedInPredicate
+#PointerVarInvolvedInPredicate
+#ArrayVarInvolvedInPredicate
+#UserDefineVarInvolvedInPredicate
+#BasicTypeVarInvolvedInPredicate
+#BasicArithmeticOpInvolvedInPredicate
+#IncreDecreOpInvolvedInPredicate
+#ShiftOpInvolvedInPredicate
+#BitOpInvolvedInPredicate
+#VarInvolvedInLoop
+#PointerVarInvolvedInLoop
+#ArrayVarInvolvedInLoop
+#UserDefineVarInvolvedInLoop
+#BasicTypeVarInvolvedInLoop
+#PointerArith
+#FunctionReturnVar
+#LibraryReturnVar
+#FunctionArgumentVar
+#LibraryArgumentVar
+#ReturnInvolvedVar
+#PointerArithInvolvedVar
+V(g)
+strict V(G)
+FanIn
+FanOut
+#loops
+#nested loops
+#predicate
+#nested predicates
+#independent predicates
