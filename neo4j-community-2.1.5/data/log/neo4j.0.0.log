@@ -1,0 +1,688 @@
+Mar 13, 2017 12:52:08 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 12:52:09 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 12:52:09 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:09:41 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:09:42 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:09:42 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:20:15 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:20:15 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:20:15 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:22:28 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:22:28 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:22:28 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:34:34 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:34:34 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:34:35 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:36:40 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:36:40 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 13, 2017 1:36:40 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 29, 2017 1:24:43 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 29, 2017 1:24:43 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 29, 2017 1:24:43 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 29, 2017 1:25:31 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 29, 2017 1:25:31 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 29, 2017 1:25:32 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 30, 2017 10:04:06 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 30, 2017 10:04:06 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 30, 2017 10:04:06 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 30, 2017 10:09:02 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOfRange(Arrays.java:3664)
+	at java.lang.StringBuffer.toString(StringBuffer.java:669)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:110)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+	at org.neo4j.server.rest.repr.OutputFormat.ok(OutputFormat.java:71)
+	at org.neo4j.server.rest.web.ExtensionService.invokeGraphDatabaseExtension(ExtensionService.java:134)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at org.neo4j.server.rest.transactional.TransactionalRequestDispatcher.dispatch(TransactionalRequestDispatcher.java:139)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:698)
+
+Mar 30, 2017 10:09:38 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOfRange(Arrays.java:3664)
+	at java.lang.StringBuffer.toString(StringBuffer.java:669)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:110)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+	at org.neo4j.server.rest.repr.OutputFormat.ok(OutputFormat.java:71)
+	at org.neo4j.server.rest.web.ExtensionService.invokeGraphDatabaseExtension(ExtensionService.java:134)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at org.neo4j.server.rest.transactional.TransactionalRequestDispatcher.dispatch(TransactionalRequestDispatcher.java:139)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:698)
+
+Mar 31, 2017 10:24:51 AM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOfRange(Arrays.java:3664)
+	at java.lang.StringBuffer.toString(StringBuffer.java:669)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:110)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+	at org.neo4j.server.rest.repr.OutputFormat.ok(OutputFormat.java:71)
+	at org.neo4j.server.rest.web.ExtensionService.invokeGraphDatabaseExtension(ExtensionService.java:134)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at org.neo4j.server.rest.transactional.TransactionalRequestDispatcher.dispatch(TransactionalRequestDispatcher.java:139)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:698)
+
+Mar 31, 2017 10:25:24 AM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOfRange(Arrays.java:3664)
+	at java.lang.StringBuffer.toString(StringBuffer.java:669)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:110)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+	at org.neo4j.server.rest.repr.OutputFormat.ok(OutputFormat.java:71)
+	at org.neo4j.server.rest.web.ExtensionService.invokeGraphDatabaseExtension(ExtensionService.java:134)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:205)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at org.neo4j.server.rest.transactional.TransactionalRequestDispatcher.dispatch(TransactionalRequestDispatcher.java:139)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1469)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1400)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1349)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:699)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:698)
+
+Mar 31, 2017 2:30:46 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 31, 2017 2:30:46 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 31, 2017 2:30:46 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 31, 2017 2:31:57 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeString(WriterBasedGenerator.java:987)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writePPFieldName(WriterBasedGenerator.java:394)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeFieldName(WriterBasedGenerator.java:306)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeFieldName(WriterBasedGenerator.java:197)
+	at org.codehaus.jackson.map.ser.std.StdKeySerializer.serialize(StdKeySerializer.java:33)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:243)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:262)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+	at org.neo4j.server.rest.repr.OutputFormat.ok(OutputFormat.java:71)
+	at org.neo4j.server.rest.web.ExtensionService.invokeGraphDatabaseExtension(ExtensionService.java:134)
+
+Mar 31, 2017 2:32:29 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeString(WriterBasedGenerator.java:987)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writePPFieldName(WriterBasedGenerator.java:394)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeFieldName(WriterBasedGenerator.java:306)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeFieldName(WriterBasedGenerator.java:197)
+	at org.codehaus.jackson.map.ser.std.StdKeySerializer.serialize(StdKeySerializer.java:33)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:243)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:262)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+	at org.neo4j.server.rest.repr.OutputFormat.ok(OutputFormat.java:71)
+	at org.neo4j.server.rest.web.ExtensionService.invokeGraphDatabaseExtension(ExtensionService.java:134)
+
+Mar 31, 2017 2:38:21 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeString(WriterBasedGenerator.java:987)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writePPFieldName(WriterBasedGenerator.java:394)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeFieldName(WriterBasedGenerator.java:306)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeFieldName(WriterBasedGenerator.java:197)
+	at org.codehaus.jackson.map.ser.std.StdKeySerializer.serialize(StdKeySerializer.java:33)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:243)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:262)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+	at org.neo4j.server.rest.repr.OutputFormat.ok(OutputFormat.java:71)
+	at org.neo4j.server.rest.web.ExtensionService.invokeGraphDatabaseExtension(ExtensionService.java:134)
+
+Mar 31, 2017 2:39:00 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeString(WriterBasedGenerator.java:987)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writePPFieldName(WriterBasedGenerator.java:394)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeFieldName(WriterBasedGenerator.java:306)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeFieldName(WriterBasedGenerator.java:197)
+	at org.codehaus.jackson.map.ser.std.StdKeySerializer.serialize(StdKeySerializer.java:33)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:243)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:262)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+	at org.neo4j.server.rest.repr.OutputFormat.ok(OutputFormat.java:71)
+	at org.neo4j.server.rest.web.ExtensionService.invokeGraphDatabaseExtension(ExtensionService.java:134)
+
+Mar 31, 2017 2:41:47 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+
+Mar 31, 2017 2:42:22 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+
+Mar 31, 2017 2:52:51 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+
+Mar 31, 2017 2:58:17 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+
+Mar 31, 2017 3:04:43 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 31, 2017 3:04:43 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Mar 31, 2017 3:04:43 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 04, 2017 9:27:55 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 04, 2017 9:27:56 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 04, 2017 9:27:56 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 04, 2017 9:30:28 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 04, 2017 9:30:28 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 04, 2017 9:30:28 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 04, 2017 9:31:30 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 04, 2017 9:31:30 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 04, 2017 9:31:30 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 06, 2017 10:19:18 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 06, 2017 10:19:18 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 06, 2017 10:19:18 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 06, 2017 11:24:46 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 06, 2017 11:24:46 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 06, 2017 11:24:47 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 06, 2017 12:28:44 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 06, 2017 12:28:44 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 06, 2017 12:28:44 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 12:27:52 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 12:27:52 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 12:27:52 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 12:29:16 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeRaw(WriterBasedGenerator.java:575)
+	at org.codehaus.jackson.util.DefaultPrettyPrinter$Lf2SpacesIndenter.writeIndentation(DefaultPrettyPrinter.java:279)
+	at org.codehaus.jackson.util.DefaultPrettyPrinter.writeObjectEntrySeparator(DefaultPrettyPrinter.java:135)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writePPFieldName(WriterBasedGenerator.java:384)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeFieldName(WriterBasedGenerator.java:306)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeFieldName(WriterBasedGenerator.java:197)
+	at org.codehaus.jackson.map.ser.std.StdKeySerializer.serialize(StdKeySerializer.java:33)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:243)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+
+Apr 07, 2017 12:40:25 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 12:40:25 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 12:40:25 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 12:41:18 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeRaw(WriterBasedGenerator.java:575)
+	at org.codehaus.jackson.util.DefaultPrettyPrinter$Lf2SpacesIndenter.writeIndentation(DefaultPrettyPrinter.java:279)
+	at org.codehaus.jackson.util.DefaultPrettyPrinter.writeObjectEntrySeparator(DefaultPrettyPrinter.java:135)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writePPFieldName(WriterBasedGenerator.java:384)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeFieldName(WriterBasedGenerator.java:306)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeFieldName(WriterBasedGenerator.java:197)
+	at org.codehaus.jackson.map.ser.std.StdKeySerializer.serialize(StdKeySerializer.java:33)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:243)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+
+Apr 07, 2017 12:42:28 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeRaw(WriterBasedGenerator.java:575)
+	at org.codehaus.jackson.util.DefaultPrettyPrinter$Lf2SpacesIndenter.writeIndentation(DefaultPrettyPrinter.java:279)
+	at org.codehaus.jackson.util.DefaultPrettyPrinter.writeObjectEntrySeparator(DefaultPrettyPrinter.java:135)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writePPFieldName(WriterBasedGenerator.java:384)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeFieldName(WriterBasedGenerator.java:306)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeFieldName(WriterBasedGenerator.java:197)
+	at org.codehaus.jackson.map.ser.std.StdKeySerializer.serialize(StdKeySerializer.java:33)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:243)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+
+Apr 07, 2017 12:46:33 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 12:46:33 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 12:46:33 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 12:47:57 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeString(WriterBasedGenerator.java:987)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeString(WriterBasedGenerator.java:448)
+	at org.codehaus.jackson.map.ser.std.StringSerializer.serialize(StringSerializer.java:28)
+	at org.codehaus.jackson.map.ser.std.StringSerializer.serialize(StringSerializer.java:18)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:262)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+	at org.neo4j.server.rest.repr.OutputFormat.ok(OutputFormat.java:71)
+	at org.neo4j.server.rest.web.ExtensionService.invokeGraphDatabaseExtension(ExtensionService.java:134)
+	at sun.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+
+Apr 07, 2017 12:50:46 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeString(WriterBasedGenerator.java:987)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeString(WriterBasedGenerator.java:448)
+	at org.codehaus.jackson.map.ser.std.StringSerializer.serialize(StringSerializer.java:28)
+	at org.codehaus.jackson.map.ser.std.StringSerializer.serialize(StringSerializer.java:18)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:262)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+	at org.neo4j.server.rest.repr.OutputFormat.ok(OutputFormat.java:71)
+	at org.neo4j.server.rest.web.ExtensionService.invokeGraphDatabaseExtension(ExtensionService.java:134)
+	at sun.reflect.GeneratedMethodAccessor45.invoke(Unknown Source)
+
+Apr 07, 2017 1:03:30 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 1:03:30 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 1:03:30 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 1:05:25 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeRaw(WriterBasedGenerator.java:575)
+	at org.codehaus.jackson.util.DefaultPrettyPrinter$Lf2SpacesIndenter.writeIndentation(DefaultPrettyPrinter.java:279)
+	at org.codehaus.jackson.util.DefaultPrettyPrinter.writeObjectEntrySeparator(DefaultPrettyPrinter.java:135)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writePPFieldName(WriterBasedGenerator.java:384)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeFieldName(WriterBasedGenerator.java:306)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeFieldName(WriterBasedGenerator.java:197)
+	at org.codehaus.jackson.map.ser.std.StdKeySerializer.serialize(StdKeySerializer.java:33)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:243)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+
+Apr 07, 2017 1:11:34 PM com.sun.jersey.spi.container.ContainerResponse mapMappableContainerException
+SEVERE: The exception contained within MappableContainerException could not be mapped to a response, re-throwing to the HTTP container
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3332)
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:124)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:596)
+	at java.lang.StringBuffer.append(StringBuffer.java:367)
+	at java.io.StringWriter.write(StringWriter.java:94)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._flushBuffer(WriterBasedGenerator.java:1812)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeRaw(WriterBasedGenerator.java:575)
+	at org.codehaus.jackson.util.DefaultPrettyPrinter$Lf2SpacesIndenter.writeIndentation(DefaultPrettyPrinter.java:279)
+	at org.codehaus.jackson.util.DefaultPrettyPrinter.writeObjectEntrySeparator(DefaultPrettyPrinter.java:135)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writePPFieldName(WriterBasedGenerator.java:384)
+	at org.codehaus.jackson.impl.WriterBasedGenerator._writeFieldName(WriterBasedGenerator.java:306)
+	at org.codehaus.jackson.impl.WriterBasedGenerator.writeFieldName(WriterBasedGenerator.java:197)
+	at org.codehaus.jackson.map.ser.std.StdKeySerializer.serialize(StdKeySerializer.java:33)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serializeFields(MapSerializer.java:243)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:186)
+	at org.codehaus.jackson.map.ser.std.MapSerializer.serialize(MapSerializer.java:23)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:122)
+	at org.codehaus.jackson.map.ser.std.StdContainerSerializers$IndexedListSerializer.serializeContents(StdContainerSerializers.java:71)
+	at org.codehaus.jackson.map.ser.std.AsArraySerializerBase.serialize(AsArraySerializerBase.java:86)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610)
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256)
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613)
+	at org.neo4j.server.rest.domain.JsonHelper.createJsonFrom(JsonHelper.java:108)
+	at org.neo4j.server.rest.repr.formats.JsonFormat.complete(JsonFormat.java:56)
+	at org.neo4j.server.rest.repr.DefaultFormat.complete(DefaultFormat.java:74)
+	at org.neo4j.server.rest.repr.ListRepresentation.serialize(ListRepresentation.java:53)
+	at org.neo4j.server.rest.repr.OutputFormat.assemble(OutputFormat.java:224)
+	at org.neo4j.server.rest.repr.OutputFormat.formatRepresentation(OutputFormat.java:156)
+	at org.neo4j.server.rest.repr.OutputFormat.response(OutputFormat.java:139)
+
+Apr 07, 2017 1:14:55 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 1:14:55 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Apr 07, 2017 1:14:55 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
