@@ -1,0 +1,114 @@
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<Event>
+		<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+		<Callerfunction>CALD_StartDldFileReq</Callerfunction>
+		<Sensitivefunction>VOS_MemCpy</Sensitivefunction>
+		<TaintedArguments>(void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  </TaintedArguments>
+		<Location>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:107:17</Location>
+		<Description>
+[VOS_MemCpy] is a memory operation function using tainted data: [(void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:107:17]
+Call Stack:
+QAAL2_ProcMsg; CALD_StartDldFileReq; VOS_MemCpy
+</Description>
+		<riskDegree>100</riskDegree>
+		<line>107</line>
+	</Event>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<Event>
+		<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+		<Callerfunction>PID_DosMsgInitor</Callerfunction>
+		<Sensitivefunction>VOS_MemAlloc</Sensitivefunction>
+		<TaintedArguments>usLen  usLen  usLen  </TaintedArguments>
+		<Location>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:43:15</Location>
+		<Description>
+[VOS_MemAlloc] is a memory operation function using tainted data: [usLen  usLen  usLen  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:43:15]
+Call Stack:
+PID_DosMsgInit; PID_DosMsgInitor; VOS_MemAlloc
+</Description>
+		<riskDegree>100</riskDegree>
+		<line>43</line>
+	</Event>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<Event>
+		<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+		<Callerfunction>CALD_StartUpFileReq</Callerfunction>
+		<Sensitivefunction>VOS_MemCpy</Sensitivefunction>
+		<TaintedArguments>(void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  </TaintedArguments>
+		<Location>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:72:18</Location>
+		<Description>
+[VOS_MemCpy] is a memory operation function using tainted data: [(void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:72:18]
+Call Stack:
+SCCP_ProcMsg; CALD_StartUpFileReq; VOS_MemCpy
+</Description>
+		<riskDegree>100</riskDegree>
+		<line>72</line>
+	</Event>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<Event>
+		<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+		<Callerfunction>CALD_StartUpFileReq</Callerfunction>
+		<Sensitivefunction>VOS_MemCpy</Sensitivefunction>
+		<TaintedArguments>pstMtn-&gt;pstTlvPara[ulLoop].usLen  pstMtn-&gt;pstTlvPara[ulLoop].usLen  </TaintedArguments>
+		<Location>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:75:19</Location>
+		<Description>
+[VOS_MemCpy] is a memory operation function using tainted data: [pstMtn-&gt;pstTlvPara[ulLoop].usLen  pstMtn-&gt;pstTlvPara[ulLoop].usLen  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:75:19]
+Call Stack:
+SCCP_ProcMsg; CALD_StartUpFileReq; VOS_MemCpy
+</Description>
+		<riskDegree>100</riskDegree>
+		<line>75</line>
+	</Event>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<Event>
+		<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+		<Callerfunction>CALD_StartUpFileReq</Callerfunction>
+		<Sensitivefunction>VOS_MemCpy</Sensitivefunction>
+		<TaintedArguments>pstMtn-&gt;pstTlvPara[ulLoop].usLen  (void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  </TaintedArguments>
+		<Location>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:78:19</Location>
+		<Description>
+[VOS_MemCpy] is a memory operation function using tainted data: [pstMtn-&gt;pstTlvPara[ulLoop].usLen  (void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:78:19]
+Call Stack:
+SCCP_ProcMsg; CALD_StartUpFileReq; VOS_MemCpy
+</Description>
+		<riskDegree>100</riskDegree>
+		<line>78</line>
+	</Event>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<Event>
+		<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+		<Callerfunction>CALD_StartUpFileReq</Callerfunction>
+		<Sensitivefunction>VOS_MemCpy</Sensitivefunction>
+		<TaintedArguments>pstMtn-&gt;pstTlvPara[ulLoop].usLen  (void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  </TaintedArguments>
+		<Location>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:81:19</Location>
+		<Description>
+[VOS_MemCpy] is a memory operation function using tainted data: [pstMtn-&gt;pstTlvPara[ulLoop].usLen  (void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:81:19]
+Call Stack:
+SCCP_ProcMsg; CALD_StartUpFileReq; VOS_MemCpy
+</Description>
+		<riskDegree>100</riskDegree>
+		<line>81</line>
+	</Event>
+</error>

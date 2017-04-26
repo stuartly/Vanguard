@@ -1,0 +1,3 @@
+opencc -c -o av.o -DSPEC_CPU   -DPERL_CORE     -DSPEC_CPU_LINUX_IA64 -DSPEC_CPU_LP64             -O3     av.c
+opencc -c -o deb.o -DSPEC_CPU   -DPERL_CORE     -DSPEC_CPU_LINUX_IA64 -DSPEC_CPU_LP64             -O3     deb.c
+opencc -c -o doio.o -DSPEC_CPU   -DPERL_CORE     -DSPEC_CPU_LINUX_IA64 -DSPEC_CPU_LP64             -O3     doio.c

@@ -1,0 +1,3 @@
+opencc -c -o sgf/sgf_utils.o -DSPEC_CPU   -DHAVE_CONFIG_H -I. -I.. -I../include -I./include                  -O3     sgf/sgf_utils.c
+opencc -c -o sgf/sgftree.o -DSPEC_CPU   -DHAVE_CONFIG_H -I. -I.. -I../include -I./include                  -O3     sgf/sgftree.c
+opencc -c -o sgf/sgfnode.o -DSPEC_CPU   -DHAVE_CONFIG_H -I. -I.. -I../include -I./include                  -O3     sgf/sgfnode.c

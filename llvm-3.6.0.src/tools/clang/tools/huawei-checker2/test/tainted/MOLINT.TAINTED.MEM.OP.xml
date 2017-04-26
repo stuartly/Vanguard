@@ -1,0 +1,798 @@
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_div.c</file>
+	<function>DIV_quot_o2W</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [quot  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_div.c:13:5]
+Call Stack:
+PCU_ProcMsg; DIV_quot_o2W; printf
+</description>
+		<line>13</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_div.c</file>
+	<function>DIV_quot_o2</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [quot  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_div.c:25:5]
+Call Stack:
+PCU_Timer1Sec; DIV_quot_o2; printf
+</description>
+		<line>25</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_div.c</file>
+	<function>DIV_quot_msgW</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [quot  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_div.c:35:5]
+Call Stack:
+BPU_ProcMsg; DIV_quot_msgW; printf
+</description>
+		<line>35</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_div.c</file>
+	<function>DIV_quot_msg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [quot  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_div.c:51:5]
+Call Stack:
+BPU_Timer1Sec; DIV_quot_msg; printf
+</description>
+		<line>51</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_div.c</file>
+	<function>DIV_quot_msg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [quot  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_div.c:54:5]
+Call Stack:
+BPU_Timer1Sec; DIV_quot_msg; printf
+</description>
+		<line>54</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mem_entry.c</file>
+	<function>MTP3B_Timer1sec</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[ALG_HandleMetaMrFreq] is a memory operation function using tainted data: [(MTLS_MSG_HEADER_STRU *)pstVos  (ABIS_MEASURE_REPORT *)pstMsg  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mem_entry.c:68:5]
+Call Stack:
+; MTP3B_Timer1sec; ALG_HandleMetaMrFreq
+</description>
+		<line>68</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mem_entry.c</file>
+	<function>SCCP_ProcMsg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[CALD_StartUpFileReq] is a memory operation function using tainted data: [(void *)pstMsg  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mem_entry.c:36:5]
+Call Stack:
+; SCCP_ProcMsg; CALD_StartUpFileReq
+</description>
+		<line>36</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mem_entry.c</file>
+	<function>QAAL2_ProcMsg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[CALD_StartDldFileReq] is a memory operation function using tainted data: [(void *)pstMsg  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mem_entry.c:46:5]
+Call Stack:
+; QAAL2_ProcMsg; CALD_StartDldFileReq
+</description>
+		<line>46</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>ALG_HandleRawMrFreq</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[VOS_MemCpy] is a memory operation function using tainted data: [pFinalMsg + usMsgLenHeadToL3  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:198:5]
+Call Stack:
+SAAL_Timer1sec; ALG_HandleRawMrFreq; VOS_MemCpy
+</description>
+		<line>198</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>monitor_handshake_request_handler</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[htonl] is a memory operation function using tainted data: [(UINT32)atoi(acTask)  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:261:20]
+Call Stack:
+; monitor_handshake_request_handler; htonl
+</description>
+		<line>261</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>monitor_handshake_request_handler</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[common_handshake_get_tasknum] is a memory operation function using tainted data: [context  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:246:19]
+Call Stack:
+; monitor_handshake_request_handler; common_handshake_get_tasknum
+</description>
+		<line>246</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>CALD_StartDldFileReq</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [pstMtn-&gt;pstTlvPara[ulLoop].ulParaId  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:144:18]
+Call Stack:
+QAAL2_ProcMsg; CALD_StartDldFileReq; printf
+</description>
+		<line>144</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>CALD_StartDldFileReq</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[VOS_MemCpy] is a memory operation function using tainted data: [(void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:107:17]
+Call Stack:
+QAAL2_ProcMsg; CALD_StartDldFileReq; VOS_MemCpy
+</description>
+		<line>107</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>CALD_StartUpFileReq</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [pstMtn-&gt;pstTlvPara[ulLoop].ulParaId  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:84:18]
+Call Stack:
+SCCP_ProcMsg; CALD_StartUpFileReq; printf
+</description>
+		<line>84</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>CALD_StartUpFileReq</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[VOS_MemCpy] is a memory operation function using tainted data: [pstMtn-&gt;pstTlvPara[ulLoop].usLen  (void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:81:19]
+Call Stack:
+SCCP_ProcMsg; CALD_StartUpFileReq; VOS_MemCpy
+</description>
+		<line>81</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>CALD_StartUpFileReq</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[VOS_MemCpy] is a memory operation function using tainted data: [pstMtn-&gt;pstTlvPara[ulLoop].usLen  (void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:78:19]
+Call Stack:
+SCCP_ProcMsg; CALD_StartUpFileReq; VOS_MemCpy
+</description>
+		<line>78</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>CALD_StartUpFileReq</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[VOS_MemCpy] is a memory operation function using tainted data: [pstMtn-&gt;pstTlvPara[ulLoop].usLen  pstMtn-&gt;pstTlvPara[ulLoop].usLen  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:75:19]
+Call Stack:
+SCCP_ProcMsg; CALD_StartUpFileReq; VOS_MemCpy
+</description>
+		<line>75</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>CALD_StartUpFileReq</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[VOS_MemCpy] is a memory operation function using tainted data: [(void *)pstMtn-&gt;pstTlvPara[ulLoop].pucValue  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:72:18]
+Call Stack:
+SCCP_ProcMsg; CALD_StartUpFileReq; VOS_MemCpy
+</description>
+		<line>72</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>ALG_HandleMetaMrFreq</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[VOS_MemCpy] is a memory operation function using tainted data: [pFinalMsg + usMsgLenHeadToL3  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:227:5]
+Call Stack:
+MTP3B_Timer1sec; ALG_HandleMetaMrFreq; VOS_MemCpy
+</description>
+		<line>227</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>PID_DosMsgInitor</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[VOS_MemAlloc] is a memory operation function using tainted data: [usLen  usLen  usLen  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:43:15]
+Call Stack:
+PID_DosMsgInit; PID_DosMsgInitor; VOS_MemAlloc
+</description>
+		<line>43</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>PID_DosMsgInit</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[PID_StaticMsgInit] is a memory operation function using tainted data: [pMsg  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:51:5]
+Call Stack:
+MTP3B_ProcMsg; PID_DosMsgInit; PID_StaticMsgInit
+</description>
+		<line>51</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>PID_DosMsgInit</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[PID_StaticMsgInit2] is a memory operation function using tainted data: [pMsg  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:52:5]
+Call Stack:
+MTP3B_ProcMsg; PID_DosMsgInit; PID_StaticMsgInit2
+</description>
+		<line>52</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c</file>
+	<function>PID_DosMsgInit</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[PID_DosMsgInitor] is a memory operation function using tainted data: [pMsg  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mem.c:53:5]
+Call Stack:
+MTP3B_ProcMsg; PID_DosMsgInit; PID_DosMsgInitor
+</description>
+		<line>53</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mod_entry.c</file>
+	<function>BIM_ProcMsg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[vos_strtouq] is a memory operation function using tainted data: [ulSenderId  (const char *)pstMsg-&gt;aucValue  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mod_entry.c:87:5]
+Call Stack:
+; BIM_ProcMsg; vos_strtouq
+</description>
+		<line>87</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mod_entry.c</file>
+	<function>PIE_ProcMsg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[MOD_quot_msgW] is a memory operation function using tainted data: [ulSenderId  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mod_entry.c:67:5]
+Call Stack:
+; PIE_ProcMsg; MOD_quot_msgW
+</description>
+		<line>67</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mod_entry.c</file>
+	<function>PIM_ProcMsg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[MOD_quot_o2W] is a memory operation function using tainted data: [ulSenderPid  ulSenderId  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mod_entry.c:45:5]
+Call Stack:
+; PIM_ProcMsg; MOD_quot_o2W
+</description>
+		<line>45</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mod_entry.c</file>
+	<function>PIM_Timer1Sec</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[MOD_quot_o2] is a memory operation function using tainted data: [ulSenderPid  ulSenderId  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mod_entry.c:56:5]
+Call Stack:
+; PIM_Timer1Sec; MOD_quot_o2
+</description>
+		<line>56</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mod_entry.c</file>
+	<function>PIE_Timer1Sec</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[MOD_quot_msg] is a memory operation function using tainted data: [ulSenderId  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/mod_entry.c:78:5]
+Call Stack:
+; PIE_Timer1Sec; MOD_quot_msg
+</description>
+		<line>78</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c</file>
+	<function>TBM_Timer1Sec</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[DIV_SetDelay] is a memory operation function using tainted data: [plForwardJitterMean  plForwardDelayAverageBase  ulLgcPort  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c:73:5]
+Call Stack:
+; TBM_Timer1Sec; DIV_SetDelay
+</description>
+		<line>73</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c</file>
+	<function>TBM_ProcMsg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[DIV_SetDelayW] is a memory operation function using tainted data: [plForwardJitterMean  plForwardDelayAverageBase  ulLgcPort  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c:63:5]
+Call Stack:
+; TBM_ProcMsg; DIV_SetDelayW
+</description>
+		<line>63</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c</file>
+	<function>PCU_ProcMsg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[DIV_quot_o2W] is a memory operation function using tainted data: [ulSenderPid  ulSenderId  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c:20:5]
+Call Stack:
+; PCU_ProcMsg; DIV_quot_o2W
+</description>
+		<line>20</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c</file>
+	<function>BPU_ProcMsg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[DIV_quot_msgW] is a memory operation function using tainted data: [ulSenderId  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c:42:5]
+Call Stack:
+; BPU_ProcMsg; DIV_quot_msgW
+</description>
+		<line>42</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c</file>
+	<function>PCU_Timer1Sec</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[DIV_quot_o2] is a memory operation function using tainted data: [ulSenderPid  ulSenderId  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c:31:5]
+Call Stack:
+; PCU_Timer1Sec; DIV_quot_o2
+</description>
+		<line>31</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c</file>
+	<function>BPU_Timer1Sec</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[DIV_quot_msg] is a memory operation function using tainted data: [ulSenderId  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/div_entry.c:53:5]
+Call Stack:
+; BPU_Timer1Sec; DIV_quot_msg
+</description>
+		<line>53</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mod.c</file>
+	<function>MOD_quot_o2</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [quot  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mod.c:23:5]
+Call Stack:
+PIM_Timer1Sec; MOD_quot_o2; printf
+</description>
+		<line>23</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mod.c</file>
+	<function>MOD_quot_msgW</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [quot  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mod.c:33:5]
+Call Stack:
+PIE_ProcMsg; MOD_quot_msgW; printf
+</description>
+		<line>33</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mod.c</file>
+	<function>MOD_quot_o2W</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [quot  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mod.c:11:5]
+Call Stack:
+PIM_ProcMsg; MOD_quot_o2W; printf
+</description>
+		<line>11</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mod.c</file>
+	<function>MOD_quot_msg</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[printf] is a memory operation function using tainted data: [quot  ]
+Location : [/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/src/tainted_mod.c:49:5]
+Call Stack:
+PIE_Timer1Sec; MOD_quot_msg; printf
+</description>
+		<line>49</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>

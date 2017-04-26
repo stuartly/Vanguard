@@ -1,0 +1,3 @@
+opencc -c -o main.o -DSPEC_CPU                     -O3     main.c
+opencc -c -o specrand.o -DSPEC_CPU                     -O3     specrand.c
+opencc       -O3    main.o specrand.o           -o specrand

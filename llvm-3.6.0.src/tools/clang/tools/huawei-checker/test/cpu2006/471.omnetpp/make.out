@@ -1,0 +1,1 @@
+openCC -c -o auto_derivative_function.o -DSPEC_CPU           -Iinclude -Ddeal_II_dimension=3  -O3  auto_derivative_function.cc

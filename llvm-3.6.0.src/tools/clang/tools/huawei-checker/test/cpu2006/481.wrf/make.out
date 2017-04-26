@@ -1,0 +1,18 @@
+opencc -c -o classic.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     classic.c
+opencc -c -o complex.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     complex.c
+opencc -c -o decoherence.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     decoherence.c
+opencc -c -o expn.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     expn.c
+opencc -c -o gates.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     gates.c
+opencc -c -o matrix.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     matrix.c
+opencc -c -o measure.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     measure.c
+opencc -c -o oaddn.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     oaddn.c
+opencc -c -o objcode.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     objcode.c
+opencc -c -o omuln.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     omuln.c
+opencc -c -o qec.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     qec.c
+[  8] TN850(r20) :- xor_i TN257(p0) (0x1) GTN1(r0) ; end_group scheduled
+opencc -c -o qft.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     qft.c
+opencc -c -o qureg.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     qureg.c
+opencc -c -o shor.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     shor.c
+opencc -c -o version.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     version.c
+opencc -c -o specrand.o -DSPEC_CPU         -DSPEC_CPU_LINUX            -O3     specrand.c
+opencc       -O3    classic.o complex.o decoherence.o expn.o gates.o matrix.o measure.o oaddn.o objcode.o omuln.o qec.o qft.o qureg.o shor.o version.o specrand.o   -lm        -o libquantum

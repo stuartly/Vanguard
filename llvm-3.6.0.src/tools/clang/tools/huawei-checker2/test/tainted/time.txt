@@ -1,0 +1,25 @@
+Initialize AST/CallGraph : 0.323877sec
+TaintChecker_get_time   : 0.0161sec
+Taint analysis   : 0.016972sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/cluster.ast|ASTfunction|0|2e-06|sec||ASTNums|1|ASTfuns_now |0|3e-06| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/for_entry.ast|ASTfunction|8|0.002987|sec||ASTNums|2|ASTfuns_now |8|0.002995| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/tainted_for.ast|ASTfunction|7|0.000483|sec||ASTNums|3|ASTfuns_now |15|0.003489| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/routine_ret.ast|ASTfunction|4|0.001079|sec||ASTNums|4|ASTfuns_now |19|0.004576| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/tainted_array.ast|ASTfunction|6|0.000395|sec||ASTNums|5|ASTfuns_now |25|0.004981| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/tainted_div.ast|ASTfunction|6|0.002628|sec||ASTNums|6|ASTfuns_now |31|0.007614| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/mem_entry.ast|ASTfunction|8|0.003339|sec||ASTNums|7|ASTfuns_now |39|0.010962| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/tainted_mem.ast|ASTfunction|10|0.020368|sec||ASTNums|8|ASTfuns_now |49|0.031341| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/mod_entry.ast|ASTfunction|16|0.002903|sec||ASTNums|9|ASTfuns_now |65|0.034252| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/routine_outarg.ast|ASTfunction|1|7e-05|sec||ASTNums|10|ASTfuns_now |66|0.034333| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/div_entry.ast|ASTfunction|6|0.002915|sec||ASTNums|11|ASTfuns_now |72|0.037254| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/array_entry.ast|ASTfunction|18|0.005359|sec||ASTNums|12|ASTfuns_now |90|0.042624| sec
+ |ASTName|/home/situlingyun/Documents/llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/huawei-checker/test/tainted/obj/tainted_mod.ast|ASTfunction|5|0.002083|sec||ASTNums|13|ASTfuns_now |95|0.044718| sec
+totol files: 13
+totol functions: 95
+missing check : 0.044746sec
+PreCheckDataSet: 0.025665sec
+MemoryOPChecker_get_time: 0.018164sec
+Detecting_get_time: 0.015157sec
+ConfirmDangerous_get_time: 0.002973sec
+RepairGenerating_get_time: 3.4e-05sec
+total time : 0.385639sec

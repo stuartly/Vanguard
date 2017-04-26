@@ -1,0 +1,1 @@
+ifort -c -o errorcheck.o                     -O3    errorcheck.f90

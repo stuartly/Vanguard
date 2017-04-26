@@ -1,0 +1,32 @@
+folder='/home/liang/projects/benchmarks/spec2006/benchspec/CPU2006'
+
+cp ${folder}/481.wrf/run/build_base_ia64_linux.0001/make.out          481.wrf/ast_gen.sh
+cp ${folder}/403.gcc/run/build_base_ia64_linux.0001/make.out          403.gcc/ast_gen.sh
+cp ${folder}/400.perlbench/run/build_base_ia64_linux.0001/make.out    400.perlbench/ast_gen.sh
+cp ${folder}/465.tonto/run/build_base_ia64_linux.0001/make.out        465.tonto/ast_gen.sh
+cp ${folder}/416.gamess/run/build_base_ia64_linux.0001/make.out       416.gamess/ast_gen.sh
+cp ${folder}/450.soplex/run/build_base_ia64_linux.0001/make.out       450.soplex/ast_gen.sh
+cp ${folder}/437.leslie3d/run/build_base_ia64_linux.0001/make.out     437.leslie3d/ast_gen.sh
+cp ${folder}/464.h264ref/run/build_base_ia64_linux.0001/make.out      464.h264ref/ast_gen.sh
+cp ${folder}/453.povray/run/build_base_ia64_linux.0001/make.out       453.povray/ast_gen.sh
+cp ${folder}/470.lbm/run/build_base_ia64_linux.0001/make.out          470.lbm/ast_gen.sh
+cp ${folder}/999.specrand/run/build_base_ia64_linux.0001/make.out     999.specrand/ast_gen.sh
+cp ${folder}/401.bzip2/run/build_base_ia64_linux.0001/make.out        401.bzip2/ast_gen.sh
+cp ${folder}/434.zeusmp/run/build_base_ia64_linux.0001/make.out       434.zeusmp/ast_gen.sh
+cp ${folder}/483.xalancbmk/run/build_base_ia64_linux.0001/make.out    483.xalancbmk/ast_gen.sh
+cp ${folder}/436.cactusADM/run/build_base_ia64_linux.0001/make.out    436.cactusADM/ast_gen.sh
+cp ${folder}/458.sjeng/run/build_base_ia64_linux.0001/make.out         458.sjeng/ast_gen.sh
+cp ${folder}/473.astar/run/build_base_ia64_linux.0001/make.out         	473.astar/ast_gen.sh
+cp ${folder}/445.gobmk/run/build_base_ia64_linux.0001/make.out         445.gobmk/ast_gen.sh
+cp ${folder}/471.omnetpp/run/build_base_ia64_linux.0001/make.out       471.omnetpp/ast_gen.sh
+cp ${folder}/456.hmmer/run/build_base_ia64_linux.0001/make.out         	456.hmmer/ast_gen.sh
+cp ${folder}/444.namd/run/build_base_ia64_linux.0001/make.out          	444.namd/ast_gen.sh
+cp ${folder}/454.calculix/run/build_base_ia64_linux.0001/make.out      	454.calculix/ast_gen.sh
+cp ${folder}/429.mcf/run/build_base_ia64_linux.0001/make.out           429.mcf/ast_gen.sh
+cp ${folder}/410.bwaves/run/build_base_ia64_linux.0001/make.out        410.bwaves/ast_gen.sh
+cp ${folder}/447.dealII/run/build_base_ia64_linux.0001/make.out        	447.dealII/ast_gen.sh
+cp ${folder}/433.milc/run/build_base_ia64_linux.0001/make.out          433.milc/ast_gen.sh
+cp ${folder}/462.libquantum/run/build_base_ia64_linux.0001/make.out    462.libquantum/ast_gen.sh
+cp ${folder}/482.sphinx3/run/build_base_ia64_linux.0001/make.out       	482.sphinx3/ast_gen.sh
+cp ${folder}/459.GemsFDTD/run/build_base_ia64_linux.0001/make.out      	459.GemsFDTD/ast_gen.sh
+cp ${folder}/435.gromacs/run/build_base_ia64_linux.0001/make.out       	435.gromacs/ast_gen.sh

@@ -1,0 +1,10 @@
+opencc -c -o annexb.o -DSPEC_CPU                     -O3     annexb.c
+opencc -c -o biariencode.o -DSPEC_CPU                     -O3     biariencode.c
+opencc -c -o block.o -DSPEC_CPU                     -O3     block.c
+Print_wo_loc
+Left_Opr: 10    Right_Opr: 11
+Stmt:
+> LDID M M sym11v2 0 ty=11603  <u=1 cr5> flags:0x10 b=-1 #cbpblk_pattern.init
+>OPR_STID M M sym10v3 0 <u=0 cr104> b=-1 flags:0x2 pj2 Sid-1
+chi <> 0x0x60000000000da9a8
+opencc -c -o cabac.o -DSPEC_CPU                     -O3     cabac.c

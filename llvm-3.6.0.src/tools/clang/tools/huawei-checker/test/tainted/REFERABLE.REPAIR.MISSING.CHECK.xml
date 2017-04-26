@@ -1,0 +1,36 @@
+<Reference_for_Repairing_Missing_Check>
+	<SensitiveFunction>ALG_HandleRawMrFreq</SensitiveFunction>
+	<ReferableCheck>(pstMsg == ((void *)0)) || (pstVos == ((void *)0)) || (pucMsg == ((void *)0))<Number>1</Number>
+	</ReferableCheck>
+</Reference_for_Repairing_Missing_Check>
+<Reference_for_Repairing_Missing_Check>
+	<SensitiveFunction>PID_DosMsgInit</SensitiveFunction>
+	<ReferableCheck>pstMsg == ((void *)0)<Number>1</Number>
+	</ReferableCheck>
+</Reference_for_Repairing_Missing_Check>
+<Reference_for_Repairing_Missing_Check>
+	<SensitiveFunction>PID_StaticMsgInit</SensitiveFunction>
+	<ReferableCheck>pstMsg == ((void *)0)<Number>1</Number>
+	</ReferableCheck>
+</Reference_for_Repairing_Missing_Check>
+<Reference_for_Repairing_Missing_Check>
+	<SensitiveFunction>VOS_MemAlloc</SensitiveFunction>
+	<ReferableCheck>usLen &lt; 1000000000<Number>1</Number>
+	</ReferableCheck>
+	<ReferableCheck>usLen &lt; 66666666666LL<Number>1</Number>
+	</ReferableCheck>
+</Reference_for_Repairing_Missing_Check>
+<Reference_for_Repairing_Missing_Check>
+	<SensitiveFunction>VOS_MemCpy</SensitiveFunction>
+	<ReferableCheck>pstMtn-&gt;pstTlvPara[ulLoop].usLen &gt;= 100<Number>3</Number>
+	</ReferableCheck>
+	<ReferableCheck>usLen &lt; 66666666666LL<Number>1</Number>
+	</ReferableCheck>
+</Reference_for_Repairing_Missing_Check>
+<Reference_for_Repairing_Missing_Check>
+	<SensitiveFunction>xrpc_get_request_arg</SensitiveFunction>
+	<ReferableCheck>0 == common_handshake_get_tasknum(context, &amp;taskNum)<Number>1</Number>
+	</ReferableCheck>
+	<ReferableCheck>usLen &lt; 66666666666LL<Number>1</Number>
+	</ReferableCheck>
+</Reference_for_Repairing_Missing_Check>

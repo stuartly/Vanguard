@@ -1,0 +1,2 @@
+opencc -c -o CalculiX.o -DSPEC_CPU   -ISPOOLES                  -O3     CalculiX.c
+ifort -c -o add_pr.o   -ISPOOLES                  -O3    add_pr.f
