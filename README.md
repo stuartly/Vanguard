@@ -1,7 +1,7 @@
-# Vanguard: Detecting Missing Check for Identifying Insufficient Attack Protection
+## Vanguard: Detecting Missing Check for Identifying Insufficient Attack Protection
 
 
-# Complier:
+## Complier:
 + put huawei-checker to the directory of llvm-src/clang/tools
 + mkdir llvm-build
 + cd llvm-build
@@ -9,6 +9,6 @@
 + make
 
 
-#Usage:
+## Usage:
 + huawei-checker astList.txt config.json
 
