@@ -12,3 +12,9 @@
 ## Usage:
 + huawei-checker astList.txt config.json
 
+
+## Example:
++ cd Test-code/tainted
++ ./linux_x86.sh
++ huawei-checker astList.txt config.json
+
