@@ -2,10 +2,10 @@
 
 
 ## Complier:
-+ put huawei-checker to the directory of llvm-src/clang/tools
-+ mkdir llvm-build
-+ cd llvm-build
-+ cmake ../llvm-src
++ put huawei-checker to the directory of llvm-3.6.0.src/clang/tools
++ mkdir llvm-3.6.0-build
++ cd llvm-3.6.0-build
++ cmake ../llvm-3.6.0.src
 + make
 
 
