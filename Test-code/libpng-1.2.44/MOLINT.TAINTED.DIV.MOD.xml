@@ -1,0 +1,59 @@
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/libpng-1.2.44/pngwrite.c</file>
+	<function>png_set_filter_heuristics</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: filter_weights[i]
+			Result: Could be 0, Please Check.
+		</description>
+		<line>1369</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/libpng-1.2.44/pngwrite.c</file>
+	<function>png_set_filter_heuristics</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: filter_costs[i]
+			Result: Could be 0, Please Check.
+		</description>
+		<line>1409</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/libpng-1.2.44/png.c</file>
+	<function>png_zalloc</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: size
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>167</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>

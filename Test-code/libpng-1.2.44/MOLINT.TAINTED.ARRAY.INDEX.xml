@@ -1,0 +1,89 @@
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/llvm3.6/Test-code/libpng-1.2.44/pngrutil.c</file>
+<function>png_do_read_interlace</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: png_pass_inc[pass]
+		needs bound checking:
+		pass &lt; 7;
+		pass &gt;= 0;
+		stack:
+		png_do_read_interlace
+		</description>
+<line>2720</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/llvm3.6/Test-code/libpng-1.2.44/pngread.c</file>
+<function>png_read_info</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: info_ptr-&gt;signature[num_checked]
+		needs bound checking:
+		num_checked &lt; 8;
+		stack:
+		png_read_info
+		</description>
+<line>367</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/llvm3.6/Test-code/libpng-1.2.44/pngpread.c</file>
+<function>png_push_read_sig</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: info_ptr-&gt;signature[num_checked]
+		needs bound checking:
+		num_checked &lt; 8;
+		stack:
+		png_push_read_sig
+		</description>
+<line>129</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/llvm3.6/Test-code/libpng-1.2.44/pngwutil.c</file>
+<function>png_write_sig</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: png_signature[png_ptr-&gt;sig_bytes]
+		needs bound checking:
+		png_ptr-&gt;sig_bytes &lt; 8;
+		stack:
+		png_write_info_before_PLTE-&gt;png_write_sig
+		</description>
+<line>68</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>

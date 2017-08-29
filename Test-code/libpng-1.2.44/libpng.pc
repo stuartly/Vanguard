@@ -1,0 +1,11 @@
+prefix=/media/newdrive/llvm3.6/Test-code/libpng-1.2.44/installed
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/libpng12
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.2.44
+Libs: -L${libdir} -lpng12
+Libs.private: -lz -lm 
+Cflags: -I${includedir} 
