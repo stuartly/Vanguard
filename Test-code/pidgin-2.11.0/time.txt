@@ -1,0 +1,10 @@
+Initialize AST : 140.12sec
+DanglingPointer: 0sec
+TaintChecker   : 2.66007sec
+AST            : 63
+Function       : 1164
+RecursiveCall  : 0sec
+ArrayBound     : 0sec
+DivChecker     : 0.838939sec
+MemoryOPChecker: 0.401765sec
+total time : 145.598sec

@@ -1,0 +1,4 @@
+#!/bin/bash
+find -name "Makefile" | xargs perl -pi -e 's|CC = gcc|CC = clang -emit-ast|g'
+find -name "Makefile" | xargs perl -pi -e 's|CPP = gcc|CPP = clang++ -emit-ast|g'
+

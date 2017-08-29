@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <id type="desktop">pidgin.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0</project_license>
+  <summary>Instant Messaging Client</summary>
+  <summary xml:lang="br">Arval postelerezh prim</summary>
+  <summary xml:lang="cs">Instant Messaging Klient</summary>
+  <summary xml:lang="de">Client für Instant Messaging (Sofortnachrichten)</summary>
+  <summary xml:lang="el">Πελάτης άμεσων μηνυμάτων </summary>
+  <summary xml:lang="en_AU">Instant Messaging Client</summary>
+  <summary xml:lang="es">Cliente de mensajería instantánea</summary>
+  <summary xml:lang="fi">Pikaviestinsovellus</summary>
+  <summary xml:lang="gl">Cliente de mensaxería instantánea</summary>
+  <summary xml:lang="hu">Azonnaliüzenet-küldő kliens</summary>
+  <summary xml:lang="it">Client di messaggistica istantanea</summary>
+  <summary xml:lang="lt">Pokalbių klientas</summary>
+  <summary xml:lang="lv">Tūlītējās ziņojumapmaiņas klients</summary>
+  <summary xml:lang="nb">Lynmeldingsklient</summary>
+  <summary xml:lang="nl">Instant Messaging Cliënt</summary>
+  <summary xml:lang="nn">Lynmeldingsklient</summary>
+  <summary xml:lang="pl">Komunikator</summary>
+  <summary xml:lang="pt">Cliente de Mensagens Instântaneas</summary>
+  <summary xml:lang="pt_BR">Cliente de mensagens instantâneas</summary>
+  <summary xml:lang="ru">Клиент для мгновенного обмена сообщениями</summary>
+  <summary xml:lang="sl">Odjemalec za klepet</summary>
+  <summary xml:lang="sq">Klient Mesazhesh të Atypëratyshme</summary>
+  <summary xml:lang="sv">Snabbmeddelandeklient</summary>
+  <summary xml:lang="tr">Anında Mesajlaşma İstemcisi</summary>
+  <description>
+    <p>Pidgin is a chat program which lets you log in to accounts on multiple chat networks simultaneously.</p>
+    <p xml:lang="br">Ur meziant kaozeal eo Pidgin, a laosk ac'hanoc'h da gennaskañ d'ho kontoù war meur a rouedad kaozeal er memes mare.</p>
+    <p xml:lang="cs">Pidgin je chatovací program umožňující přihlášení k účtům na různých sítích soušasně. </p>
+    <p xml:lang="de">Pidgin ist eine Chat-Anwendung, welche es Ihnen erlaubt, sich gleichzeitig bei mehreren Chat-Netzwerken anzumelden.</p>
+    <p xml:lang="el">Το Pidgin είναι μια εφαρμογή συνομιλίας που σας επιτρέπει να συνδεθείτε σε λογαριασμούς σε πολλαπλά δίκτυα συνομιλίας ταυτόχρονα.</p>
+    <p xml:lang="en_AU">Pidgin is a chat program which lets you log in to accounts on multiple chat networks simultaneously.</p>
+    <p xml:lang="es">Pidgin es un programa de mensajería instantánea que le permite registrar en cuentas en distintas redes de chat simultáneamente.</p>
+    <p xml:lang="fi">Pidgin on pikaviestinsovellus, jolla voit kirjautua useisiin eri keskusteluverkkoihin samanaikaisesti.</p>
+    <p xml:lang="gl">Pidgin é un programa de conversas que permite conectarse simultaneamente  con contas en múltiples redes de conversa.</p>
+    <p xml:lang="hu">A Pidgin egy csevegőprogram, ami lehetővé teszi egyszerre több csevegőhálózat fiókjaiba való belépést.</p>
+    <p xml:lang="it">Pidgin è un'applicazione per le chat che ti permette di accedere simultaneamente a diversi account.</p>
+    <p xml:lang="lt">„Pidgin“ yra programa kuri suteikia galimybę vienu metu būti prijungus prie kelių pokalbių tinklų.</p>
+    <p xml:lang="lv">Pidgin ir tērzēšanas programma, kura ļauj jums pieteikties kontos uz vairākiem tērzēšanas tīkliem vienlaicīgi.</p>
+    <p xml:lang="nb">Pidgin er et lynmeldingsprogram som lar deg logge inn på flere kontoer på forskjellige nettverk samtidig.</p>
+    <p xml:lang="nl">Pidgin is een chatprogramma waarmee je met meerdere accounts op verschillende chatnetwerken aangemeld kan zijn.</p>
+    <p xml:lang="nn">Pidgin er eit prateprogram som let deg logge på konti frå fleire pratenettverk samstundes.</p>
+    <p xml:lang="pl">Pidgin jest komunikatorem umożliwiającym logowanie do wielu sieci jednocześnie.</p>
+    <p xml:lang="pt">Pidgin é um programa de chat que lhe permite entrar em várias contas em múltiplas redes de chat simultâneamente.</p>
+    <p xml:lang="pt_BR">Pidgin é um programa de bate-papo que permite entrar em múltiplas redes de bate-papo ao mesmo tempo.</p>
+    <p xml:lang="ru">Пиджин - программа, позволяющая вам вести переписку по нескольким сетям общения одновременно.</p>
+    <p xml:lang="sl">Pidgin je program za klepet, ki omogoča prijavo v račune na več omrežjih za klepet hkrati.</p>
+    <p xml:lang="sq">Pidgin-i është një program fjalosjesh që ju lejon të hyni dhe përdorni shumë llogari njëherazi në disa rrjete fjalosjesh.</p>
+    <p xml:lang="sv">Pidgin är ett chattprogram som låter dig logga in på flera chattnätverk samtidigt.</p>
+    <p xml:lang="tr">Pidgin aynı anda farklı sohbet ağlarında oturum açabileceğiniz bir sohbet programıdır.</p>
+    <p>This means that you can be chatting with friends on MSN, talking to a friend on Google Talk, and sitting in a Yahoo chat room all at the same time.</p>
+    <p xml:lang="br">Kement-se a dalv oc'h gouest da gaozeal d'ho mignoned war MSN, eskemm gant ur mignon war Google Talk, en ur vezañ en ur saloñs kaozeal Yahoo er memes mare.</p>
+    <p xml:lang="cs">To znamená chatování s přáteli na MSN, rozhovory na Google Talk a sezení v chatovacích místnostech Yahoo současně.</p>
+    <p xml:lang="de">Dies bedeutet, dass Sie mit Freunden auf MSN chatten können, sich mit einem Freund auf Google Talk unterhalten können und in einem Yahoo-Chatraum sitzen können und all dies gleichzeitig.</p>
+    <p xml:lang="el">Αυτό σημαίνει ότι μπορείτε να συνομιλείτε με τους φίλους σας στο MSN, μιλώντας με ένα φίλο στο Google Talk, και στο Yahoo chat room, όλα την ίδια στιγμή.</p>
+    <p xml:lang="en_AU">This means that you can be chatting with friends on MSN, talking to a friend on Google Talk, and sitting in a Yahoo chat room all at the same time.</p>
+    <p xml:lang="es">Esto significa que puede enviar mensajes a amigos en MSN, hablar con un amigo en Google Talk y estar sentado en una sala de chat de Yahoo al mismo tiempo.</p>
+    <p xml:lang="fi">Voit siis keskustella esimerkiksi Googlen ja Microsoftin palveluissa oleville kavereillesi ja olla samanaikaisesti osallisena Yahoo-keskusteluhuoneessa.</p>
+    <p xml:lang="gl">Isto quere dicir que vostede pode estar conversando con amigos en MSN, falando cun amigo en Google Talk, e sentado nunha sala de conversas de Yahoo, todo o mesmo tempo.</p>
+    <p xml:lang="hu">Ez azt jelenti, hogy egyidejűleg cseveghet ismerőseivel az MSN-en, Google Talkon és Yahoo csevegőszobában.</p>
+    <p xml:lang="it">Ciò significa che puoi chattare con gli amici su MSN, Google Talk e Yahoo nello stesso momento.</p>
+    <p xml:lang="lt">Tai reiškia jog galėsite kalbėti su draugais MSN tuo pačiu kalbėdami su draugais Google Talk, besėdėdami Yahoo pokalbių kambaryje.</p>
+    <p xml:lang="lv">Tas nozīmē, ka jūs varat tērzēt ar draugiem  MSN, runāt ar draugu Google Talk un sēdēt Yahoo tērzētavā visur vienlaicīgi.</p>
+    <p xml:lang="nb">Dette betyr at du kan prate med dinne kontakter på MSN, med en kontakt på Google-talk, og sitte i et Yahoo!-samtalerom på samme tid.</p>
+    <p xml:lang="nl">Dit wil zeggen dat je tegelijkertijd kunt chatten met je MSN vrienden, kunt spreken met een vriend via Google Talk en in een Yahoo chat room kunt zitten.</p>
+    <p xml:lang="nn">Dette tyder at du kan prate med venner på MSN, prate med ein venn i Google Talk, og sitte i eit Yahoo-praterom samstundes.</p>
+    <p xml:lang="pl">Oznacza to, że można jednocześnie rozmawiać ze swoimi znajomymi przez MSN, z przyjacielem przez Google Talk i siedzieć w pokoju rozmów Yahoo.</p>
+    <p xml:lang="pt">Isto significa que pode conversar com amigos no MSN, falar com um amigo no Google Talk, e estar numa chat room da Yahoo tudo ao mesmo tempo.</p>
+    <p xml:lang="pt_BR">Isso permite que você possa conversar com amigos do MSN, falar com um amigo pelo Google Talk e entrar num bate-papo do Yahoo, tudo isso ao mesmo tempo.</p>
+    <p xml:lang="ru">Это означает, что вы можете общаться с друзьями по MSN, говорить по Google Talk и сидеть в комнате Yahoo в одно и то же время.</p>
+    <p xml:lang="sl">To pomeni, da lahko obenem klepetate s prijatelji na MSN, s prijateljem v Google Talk in v klepetalnici Yahoo.</p>
+    <p xml:lang="sq">Kjo do të thotë se mund të fjaloseni me miqtë në MSN, të bisedoni me një shok në Google Talk, dhe të merrni pjesë në një dhomë fjalosjeje Yahoo, njëherazi.</p>
+    <p xml:lang="sv">Det betyder att du kan chatta med vänner på MSN, prata med en vän på Google Talk samt delta i ett Yahoo-chattrum samtidigt.</p>
+    <p xml:lang="tr">Bu aynı anda arkadaşlarınızla MSN'de sohbet edebileceğiniz, Google Talk ile konuşabileceğiniz ve bir Yahoo sohbet odasında bulunabileceğiniz anlamına gelir.</p>
+  </description>
+  <url type="homepage">http://www.pidgin.im/</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>http://www.pidgin.im/shared/img/contact_window.png</image>
+      <caption>The buddy list showing friends on different networks.</caption>
+      <caption xml:lang="br">Roll an darempredoù o tiskouez mignoned war rouedadoù disheñvel.</caption>
+      <caption xml:lang="cs">Seznam kamarádů zobrazuje kamarády na různých sítích.</caption>
+      <caption xml:lang="de">Die Kontaktliste zeigt die Freunde aus den veschiedenen Netzwerken.</caption>
+      <caption xml:lang="el">Η λίστα φίλων εμφανίζει φίλους σε διαφορετικά δίκτυα.</caption>
+      <caption xml:lang="en_AU">The buddy list showing friends on different networks.</caption>
+      <caption xml:lang="es">La lista de amigos muestra amigos en distintas redes.</caption>
+      <caption xml:lang="fi">Kaveriluettelo esittää yhteystiedot eri verkoista.</caption>
+      <caption xml:lang="gl">A lista de contactos amosa  os seus amigos en diferentes redes.</caption>
+      <caption xml:lang="hu">A partnerlista különböző hálózatokon elérhető ismerősökkel.</caption>
+      <caption xml:lang="it">La lista dei contatti che mostra gli utenti di reti diverse.</caption>
+      <caption xml:lang="lt">Draugų sąrašas rodo draugus skirtinguose tinkluose.</caption>
+      <caption xml:lang="lv">Draugu saraksts, kurš parāda draugus dažādos tīklos.</caption>
+      <caption xml:lang="nb">Kontaktlisten viser flere kontakter på forskjellige nettverk.</caption>
+      <caption xml:lang="nl">De vriendenlijst toont vrienden van verschillende netwerken</caption>
+      <caption xml:lang="nn">Vennelista viser venner på ulike nettverk.</caption>
+      <caption xml:lang="pl">Lista znajomych wyświetlająca osoby używające różnych sieci.</caption>
+      <caption xml:lang="pt">A lista de amigos mostrando amigos em diferentes redes.</caption>
+      <caption xml:lang="pt_BR">A lista de amigos mostrando amigos em diferentes redes.</caption>
+      <caption xml:lang="ru">Список, отображающий друзей из разных сетей.</caption>
+      <caption xml:lang="sl">Seznam prijateljev prikazuje prijatelje z različnih omrežij.</caption>
+      <caption xml:lang="sq">Listë shokësh që shfaq shokë në rrjete të ndryshme.</caption>
+      <caption xml:lang="sv">Kompislistan visar vänner på olika nätverk.</caption>
+      <caption xml:lang="tr">Arkadaş listeniz farklı ağlardaki arkadaşlarınızı gösterir.</caption>
+    </screenshot>
+  </screenshots>
+  <updatecontact>devel@pidgin.im</updatecontact>
+</application>

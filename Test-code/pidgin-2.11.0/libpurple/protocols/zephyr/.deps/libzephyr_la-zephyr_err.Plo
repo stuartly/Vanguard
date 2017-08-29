@@ -1,0 +1,6 @@
+libzephyr_la-zephyr_err.lo: zephyr_err.c /usr/include/stdc-predef.h \
+ zephyr_err.h
+
+/usr/include/stdc-predef.h:
+
+zephyr_err.h:

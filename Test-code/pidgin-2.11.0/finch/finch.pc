@@ -1,0 +1,14 @@
+prefix=/media/newdrive/llvm3.6/Test-code/pidgin-2.11.0/installed
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+sysconfdir=${prefix}/etc
+
+Name: Finch
+Description: Finch is an instant messenger application that uses libpurple for protocol support and ncurses (libgnt) for the UI.
+Version: 2.11.0
+Requires: gnt purple
+Cflags: -I${includedir}/finch
+
