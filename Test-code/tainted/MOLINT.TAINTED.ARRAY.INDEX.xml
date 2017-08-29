@@ -1,0 +1,88 @@
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/missing-check/test/tainted/src/array_entry.c</file>
+<function>RRM_Timer1Sec</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: pUm-&gt;category[pstMsg-&gt;ucIpcMsgType]
+		needs bound checking:
+		pstMsg-&gt;ucIpcMsgType &lt; 23;
+		stack:
+		RRM_Timer1Sec
+		</description>
+<line>191</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/missing-check/test/tainted/src/tainted_array.c</file>
+<function>D2_procCfgMsgW</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: g_ulRbDl[cellid][cnOpIdx]
+		needs bound checking:
+		cellid &lt; 200;
+		stack:
+		TRCP_BmAppAddPrePro-&gt;D2_procCfgMsgW
+		</description>
+<line>15</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/missing-check/test/tainted/src/tainted_array.c</file>
+<function>D2_procCfgMsgW</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: g_ulRbDl[cellid][cnOpIdx]
+		needs bound checking:
+		cnOpIdx &lt; 100;
+		stack:
+		TRCP_BmAppAddPrePro-&gt;D2_procCfgMsgW
+		</description>
+<line>15</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/missing-check/test/tainted/src/tainted_array.c</file>
+<function>D1_cellAccessW</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: g_ulCell[cellid]
+		needs bound checking:
+		cellid &lt; 200;
+		stack:
+		TRCP_BmrcDelPro-&gt;D1_cellAccessW
+		</description>
+<line>32</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
