@@ -1,0 +1,112 @@
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_luv.c</file>
+<function>uv_encode</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: uv_row[vi]
+		needs bound checking:
+		vi &gt;= 0;
+		stack:
+		uv_encode
+		</description>
+<line>890</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_color.c</file>
+<function>TIFFXYZToRGB</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: cielab-&gt;Yb2b[i]
+		needs bound checking:
+		i &lt; 1501;
+		i &gt;= 0;
+		stack:
+		TIFFXYZToRGB
+		</description>
+<line>111</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_color.c</file>
+<function>TIFFXYZToRGB</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: cielab-&gt;Yg2g[i]
+		needs bound checking:
+		i &lt; 1501;
+		i &gt;= 0;
+		stack:
+		TIFFXYZToRGB
+		</description>
+<line>107</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_color.c</file>
+<function>TIFFXYZToRGB</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: cielab-&gt;Yr2r[i]
+		needs bound checking:
+		i &lt; 1501;
+		i &gt;= 0;
+		stack:
+		TIFFXYZToRGB
+		</description>
+<line>103</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>
+<error>
+<checker>MOLINT.TAINTED.ARRAY.INDEX</checker>
+<domain>STATIC_C</domain>
+<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_fax3.c</file>
+<function>Fax3PutEOL</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>Error</tag>
+<description>
+		Array expression: _msbmask[length]
+		needs bound checking:
+		length &lt; 9;
+		in Current Function
+		</description>
+<line>708</line>
+</event>
+<extra>none</extra>
+<subcategory>none</subcategory>
+</error>

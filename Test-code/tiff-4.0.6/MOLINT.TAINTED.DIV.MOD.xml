@@ -1,0 +1,1164 @@
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_dirwrite.c</file>
+	<function>TIFFWriteDirectoryTagCheckedRational</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: value
+			Result: Could be 0, Please Check.
+			CallStack:	 TIFFWriteDirectoryTagRational
+						
+		</description>
+		<line>2104</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_thunder.c</file>
+	<function>ThunderDecodeRow</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: tif-&gt;tif_scanlinesize
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>174</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_luv.c</file>
+	<function>LogLuvEncode32</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;pixel_size
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>571</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_luv.c</file>
+	<function>LogL16Decode</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;pixel_size
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>200</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_luv.c</file>
+	<function>LogL16Encode</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;pixel_size
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>430</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_luv.c</file>
+	<function>LogLuvEncode24</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;pixel_size
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>518</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_luv.c</file>
+	<function>LogLuvDecode32</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;pixel_size
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>323</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_luv.c</file>
+	<function>LogLuv32toXYZ</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: y
+			Result: Could be 0, Please Check.
+		</description>
+		<line>1086</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_luv.c</file>
+	<function>LogLuv32toXYZ</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: y
+			Result: Could be 0, Please Check.
+		</description>
+		<line>1088</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_luv.c</file>
+	<function>LogLuvDecode24</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;pixel_size
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>266</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_luv.c</file>
+	<function>multiply_ms</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: m1
+			Result: Could be 0, Please Check.
+			CallStack:	 PixarLogSetupDecode
+						 PixarLogSetupEncode
+						
+		</description>
+		<line>1230</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_color.c</file>
+	<function>TIFFCIELabToXYZ</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: cielab-&gt;Y0
+			Result: Could be 0, Please Check.
+		</description>
+		<line>54</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_color.c</file>
+	<function>TIFFXYZToRGB</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: cielab-&gt;rstep
+			Result: Could be 0, Please Check.
+		</description>
+		<line>101</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_color.c</file>
+	<function>TIFFXYZToRGB</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: cielab-&gt;gstep
+			Result: Could be 0, Please Check.
+		</description>
+		<line>105</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_color.c</file>
+	<function>TIFFXYZToRGB</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: cielab-&gt;bstep
+			Result: Could be 0, Please Check.
+		</description>
+		<line>109</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_predict.c</file>
+	<function>fpAcc</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: bps
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>381</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_predict.c</file>
+	<function>horAcc8</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: stride
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>273</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_predict.c</file>
+	<function>horDiff8</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: stride
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>469</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_predict.c</file>
+	<function>fpDiff</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: bps
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>579</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_tile.c</file>
+	<function>TIFFNumberOfTiles</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(dx))
+			Result: Could be 0, Please Check.
+		</description>
+		<line>130</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_tile.c</file>
+	<function>TIFFNumberOfTiles</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(dz))
+			Result: Could be 0, Please Check.
+		</description>
+		<line>133</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_tile.c</file>
+	<function>TIFFNumberOfTiles</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(dy))
+			Result: Could be 0, Please Check.
+		</description>
+		<line>131</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_read.c</file>
+	<function>TIFFStartTile</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(td-&gt;td_tilewidth))
+			Result: Could be 0, Please Check.
+		</description>
+		<line>1006</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_read.c</file>
+	<function>TIFFStartTile</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(td-&gt;td_tilelength))
+			Result: Could be 0, Please Check.
+		</description>
+		<line>1012</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_read.c</file>
+	<function>TIFFStartStrip</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: td-&gt;td_stripsperimage
+			Result: Could be 0, Please Check.
+		</description>
+		<line>983</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_read.c</file>
+	<function>TIFFStartStrip</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: td-&gt;td_stripsperimage
+			Result: Could be 0, Please Check.
+		</description>
+		<line>969</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_read.c</file>
+	<function>TIFFSeek</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: td-&gt;td_rowsperstrip
+			Result: Could be 0, Please Check.
+		</description>
+		<line>198</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_read.c</file>
+	<function>TIFFSeek</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: td-&gt;td_rowsperstrip
+			Result: Could be 0, Please Check.
+		</description>
+		<line>200</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_read.c</file>
+	<function>TIFFReadEncodedStrip</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: rowsperstrip
+			Result: Could be 0, Please Check.
+		</description>
+		<line>344</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_read.c</file>
+	<function>TIFFReadEncodedStrip</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: stripsperplane
+			Result: Could be 0, Please Check.
+		</description>
+		<line>346</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_read.c</file>
+	<function>TIFFReadEncodedStrip</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: stripsperplane
+			Result: Could be 0, Please Check.
+		</description>
+		<line>345</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_read.c</file>
+	<function>TIFFReadEncodedTile</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: td-&gt;td_stripsperimage
+			Result: Could be 0, Please Check.
+		</description>
+		<line>669</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_fax3.c</file>
+	<function>Fax3DecodeRLE</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;b.rowbytes
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>1511</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_fax3.c</file>
+	<function>Fax3Decode2D</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;b.rowbytes
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>275</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_fax3.c</file>
+	<function>Fax4Encode</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;b.rowbytes
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>1439</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_fax3.c</file>
+	<function>Fax3Decode1D</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;b.rowbytes
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>231</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_fax3.c</file>
+	<function>Fax4Decode</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;b.rowbytes
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>1386</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_fax3.c</file>
+	<function>Fax3Encode</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: sp-&gt;b.rowbytes
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>1044</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_strip.c</file>
+	<function>TIFFNumberOfStrips</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(td-&gt;td_rowsperstrip))
+			Result: Could be 0, Please Check.
+		</description>
+		<line>67</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_strip.c</file>
+	<function>TIFFComputeStrip</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: td-&gt;td_rowsperstrip
+			Result: Could be 0, Please Check.
+		</description>
+		<line>44</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_aux.c</file>
+	<function>_TIFFMultiply32</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: second
+			Result: Could be 0, Please Check.
+			CallStack:	 TIFFNumberOfStrips
+						 TIFFNumberOfTiles
+						
+		</description>
+		<line>41</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_aux.c</file>
+	<function>_TIFFMultiply64</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: second
+			Result: Could be 0, Please Check.
+			CallStack:	 TIFFRasterScanlineSize64
+						 TIFFScanlineSize64
+						 TIFFVStripSize64
+						 TIFFVTileSize64
+						
+		</description>
+		<line>54</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_aux.c</file>
+	<function>_TIFFCheckRealloc</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: elem_size
+			Result: Could be 0, Please Check.
+			CallStack:	 TIFFCheckDirOffset
+						 TIFFMergeFieldInfo
+						 _TIFFCheckMalloc
+						 _TIFFMergeFields
+						
+		</description>
+		<line>72</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_getimage.c</file>
+	<function>gtTileSeparate</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: (tilesize)
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>739</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_getimage.c</file>
+	<function>gtStripSeparate</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: (stripsize)
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>990</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_dir.c</file>
+	<function>setByteArray</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: elem_size
+			Result: Could be 0, Please Check.
+			CallStack:	 _TIFFsetByteArray
+						 _TIFFsetDoubleArray
+						 _TIFFsetFloatArray
+						 _TIFFsetLong8Array
+						 _TIFFsetLongArray
+						 _TIFFsetNString
+						 _TIFFsetShortArray
+						 _TIFFsetString
+						
+		</description>
+		<line>50</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_next.c</file>
+	<function>NeXTDecode</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: scanline
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>69</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_write.c</file>
+	<function>TIFFWriteEncodedStrip</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(td-&gt;td_rowsperstrip))
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>214</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_write.c</file>
+	<function>TIFFWriteEncodedTile</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(td-&gt;td_tilewidth))
+			Result: Could be 0, Please Check.
+		</description>
+		<line>421</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_write.c</file>
+	<function>TIFFWriteEncodedTile</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(td-&gt;td_tilelength))
+			Result: Could be 0, Please Check.
+		</description>
+		<line>415</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_write.c</file>
+	<function>TIFFWriteScanline</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: td-&gt;td_rowsperstrip
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>93</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_write.c</file>
+	<function>TIFFWriteScanline</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: td-&gt;td_rowsperstrip
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>91</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_write.c</file>
+	<function>TIFFWriteScanline</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(td-&gt;td_rowsperstrip))
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>117</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_write.c</file>
+	<function>TIFFWriteScanline</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: td-&gt;td_stripsperimage
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>158</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_write.c</file>
+	<function>TIFFWriteRawStrip</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: ((uint32)(td-&gt;td_rowsperstrip))
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>318</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_write.c</file>
+	<function>TIFFSetupStrips</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: td-&gt;td_samplesperpixel
+			Result: Could be 0, Please Check.
+		</description>
+		<line>507</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/llvm3.6/Test-code/tiff-4.0.6/libtiff/tif_lzw.c</file>
+	<function>LZWEncode</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: outcount
+			Result: Could be 0, Please Check.
+			CallStack:	
+						
+		</description>
+		<line>997</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
