@@ -1,0 +1,80 @@
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/missing-check/test/tainted/src/tainted_mod.c</file>
+	<function>MOD_quot_o2W</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: j
+			Result: Could be 0, Please Check.
+			CallStack:	 PIM_ProcMsg
+						
+		</description>
+		<line>10</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/missing-check/test/tainted/src/tainted_mod.c</file>
+	<function>MOD_quot_msgW</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: msg-&gt;msg_len
+			Result: Could be 0, Please Check.
+		</description>
+		<line>32</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/missing-check/test/tainted/src/tainted_div.c</file>
+	<function>DIV_quot_o2W</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: j
+			Result: Could be 0, Please Check.
+			CallStack:	 PCU_ProcMsg
+						
+		</description>
+		<line>12</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
+<error>
+	<checker>MOLINT.TAINTED.DIV.MOD</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/missing-check/test/tainted/src/tainted_div.c</file>
+	<function>DIV_quot_msgW</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+			Divisor: msg-&gt;msg_len
+			Result: Could be 0, Please Check.
+		</description>
+		<line>34</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>

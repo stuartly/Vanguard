@@ -1,0 +1,21 @@
+<error>
+	<checker>MOLINT.TAINTED.MEM.OP</checker>
+	<domain>STATIC_C</domain>
+	<file>/media/newdrive/missing-check/test/tainted/src/tainted_mem.c</file>
+	<function>PID_DosMsgInitor</function>
+	<score>100</score>
+	<ordered>false</ordered>
+	<event>
+		<main>true</main>
+		<tag>Error</tag>
+		<description>
+[VOS_MemAlloc] is a memory operation function using tainted data: [usLen]
+Location : [/media/newdrive/missing-check/test/tainted/src/tainted_mem.c:43:15]
+Call Stack:
+PID_DosMsgInit; PID_DosMsgInitor; VOS_MemAlloc
+</description>
+		<line>43</line>
+	</event>
+	<extra>none</extra>
+	<subcategory>none</subcategory>
+</error>
