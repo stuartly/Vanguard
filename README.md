@@ -2,7 +2,7 @@
 
 
 ## Install
-+ put missing-check/huawei-checker to the directory of llvm-3.6.0.src/tools/clang/tools
++ cp -rf missing-check/huawei-checker llvm-3.6.0.src/tools/clang/tools/
 + mkdir llvm-3.6.0-build
 + cd llvm-3.6.0-build
 + cmake ../llvm-3.6.0.src
