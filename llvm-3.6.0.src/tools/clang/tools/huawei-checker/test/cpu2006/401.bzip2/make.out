@@ -1,1 +1,0 @@
-opencc -c -o alloca.o -DSPEC_CPU   -I.     -DSPEC_CPU_LP64             -O3     alloca.c

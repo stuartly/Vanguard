@@ -1,9 +1,0 @@
-clang -emit-ast -o ast/spec.ast                     -O3     spec.c
-clang -emit-ast -o ast/blocksort.ast                     -O3     blocksort.c
-clang -emit-ast -o ast/bzip2.ast                     -O3     bzip2.c
-clang -emit-ast -o ast/bzlib.ast                     -O3     bzlib.c
-clang -emit-ast -o ast/compress.ast                     -O3     compress.c
-clang -emit-ast -o ast/crctable.ast                     -O3     crctable.c
-clang -emit-ast -o ast/decompress.ast                     -O3     decompress.c
-clang -emit-ast -o ast/huffman.ast                     -O3     huffman.c
-clang -emit-ast -o ast/randtable.ast                     -O3     randtable.c

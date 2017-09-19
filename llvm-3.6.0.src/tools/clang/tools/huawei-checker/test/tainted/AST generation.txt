@@ -1,1 +1,0 @@
-WHERE /R obj *.ast >>astList.txt

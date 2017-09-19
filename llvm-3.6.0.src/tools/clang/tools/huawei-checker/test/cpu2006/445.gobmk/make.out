@@ -1,1 +1,0 @@
-ifort -c -o advx1.o                     -O3    advx1.f

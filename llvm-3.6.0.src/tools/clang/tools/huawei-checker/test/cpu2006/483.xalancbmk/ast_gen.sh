@@ -1,1 +1,0 @@
-clang++ -emit-ast -o ast/AIXPlatformUtils.ast          -I. -Ixercesc -Ixercesc/dom -Ixercesc/dom/impl -Ixercesc/sax -Ixercesc/util/MsgLoaders/InMemory -Ixercesc/util/Transcoders/Iconv -Ixalanc/include  -O3  AIXPlatformUtils.cpp

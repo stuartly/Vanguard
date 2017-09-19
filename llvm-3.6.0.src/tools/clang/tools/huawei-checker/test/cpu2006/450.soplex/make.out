@@ -1,2 +1,0 @@
-specperl /home/yjn/WOVP/testcases/spec2006/bin/specpp    -DSPEC_CPU -DSPEC_CPU_LP64   PreLoop.F -o PreLoop.fppized.f
-ifort -c -o PreLoop.fppized.o        -DSPEC_CPU_LP64             -O3    PreLoop.fppized.f

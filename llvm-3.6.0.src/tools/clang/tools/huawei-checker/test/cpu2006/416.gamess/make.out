@@ -1,2 +1,0 @@
-specperl /home/yjn/WOVP/testcases/spec2006/bin/specpp -DSPEC_CPU_NO_HOLLERITH   -DSPEC_CPU   aldeci.F -o aldeci.fppized.f
-ifort -c -o aldeci.fppized.o                     -O3    aldeci.fppized.f

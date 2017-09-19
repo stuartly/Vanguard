@@ -1,1 +1,0 @@
-openCC -c -o CreateWay_.o -DSPEC_CPU   -DSPEC_CPU_LITTLE_ENDIAN          -O3  CreateWay_.cpp

@@ -1,1 +1,0 @@
-ifort -c -o block_solver.o                     -O3    block_solver.f

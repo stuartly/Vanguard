@@ -1,1 +1,0 @@
-ifort -c -o tml.o                     -O3    tml.f

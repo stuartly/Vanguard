@@ -1,1 +1,0 @@
-openCC -c -o EtherAppCli.o -DSPEC_CPU   -DNDEBUG=1 -I. -Iomnet_include -Ilibs/envir          -O3  EtherAppCli.cc

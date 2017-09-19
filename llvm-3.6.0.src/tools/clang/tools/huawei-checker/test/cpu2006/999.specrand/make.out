@@ -1,1 +1,0 @@
-ifort -c -o flincs.o                     -O3    flincs.f

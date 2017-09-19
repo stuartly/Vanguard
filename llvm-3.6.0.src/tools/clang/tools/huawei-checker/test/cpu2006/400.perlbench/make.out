@@ -1,4 +1,0 @@
-opencc -c -o wrf_num_bytes_between.o -DSPEC_CPU   -I. -I./netcdf/include     -DSPEC_CPU_LINUX -DSPEC_CPU_LINUX64_IPF             -O3     wrf_num_bytes_between.c
-opencc -c -o pack_utils.o -DSPEC_CPU   -I. -I./netcdf/include     -DSPEC_CPU_LINUX -DSPEC_CPU_LINUX64_IPF             -O3     pack_utils.c
-specperl /home/yjn/WOVP/testcases/spec2006/bin/specpp -w -m literal.pm -I. -DINTIO -DIWORDSIZE=4  -DDWORDSIZE=8 -DRWORDSIZE=4 -DLWORDSIZE=4 -DNETCDF  -DTRIEDNTRUE -DLIMIT_ARGS -DEM_CORE=1  -DNMM_CORE=0 -DNMM_MAX_DIM=1000 -DCOAMPS_CORE=0  -DEXP_CORE=0 -DF90_STANDALONE -DCONFIG_BUF_LEN=8192 -DMAX_DOMAINS_F=21 -DNO_NAMELIST_PRINT   -DSPEC_CPU -DSPEC_CPU_LINUX -DSPEC_CPU_LINUX64_IPF   module_driver_constants.F90 -o module_driver_constants.fppized.f90
-ifort -c -o module_driver_constants.fppized.o   -I. -I./netcdf/include     -DSPEC_CPU_LINUX -DSPEC_CPU_LINUX64_IPF             -O3    module_driver_constants.fppized.f90
