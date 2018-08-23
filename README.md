@@ -19,6 +19,7 @@
 + huawei-checker astList.txt config.json
 
 ## Reference
+```
 @inproceedings{situ2018detecting,
   title={Detecting missing checks for identifying insufficient attack protections},
   author={Situ, Lingyun and Zou, Liang and Wang, Linzhang and Liu, Yang and Mao, Bing and Li, Xuandong},
@@ -27,4 +28,5 @@
   year={2018},
   organization={ACM}
 }
+```
 
