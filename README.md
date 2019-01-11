@@ -9,7 +9,6 @@
 
 
 + install missing check tool
-
 	```
 	cp -rf missing-check/huawei-checker llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/
 	vim llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/Cmakelist.txt and add "add_subdirectory(huawei-checker)"
@@ -22,21 +21,17 @@
 	```
 
 
+
 ## Usage
-	```
 	./huawei-checker astList.txt config.json
-	```
 
 
 ## Demo
-	```
 	cd Demo/tainted
 	./linux_x86.sh
 	./llvm-3.6/llvm-3.6.0.build/bin/huawei-checker Demo/tainted/astList.txt Demo/tainted/config.json
-	```
 
 ## Reference
-	```
 	@inproceedings{situ2018detecting,
 	  title={Detecting missing checks for identifying insufficient attack protections},
 	  author={Situ, Lingyun and Zou, Liang and Wang, Linzhang and Liu, Yang and Mao, Bing and Li, Xuandong},
@@ -45,5 +40,4 @@
 	  year={2018},
 	  organization={ACM}
 	}
-	```
 
