@@ -61,7 +61,8 @@
     },
 
     "SimpleExprCheckOnly" : {
-        "MemopSimpleValue"  : true
+        "MemopSimpleValue"  : true,
+        "ReferableRepair": true
     },
 
     "MemoryOPCheckStyle" : {
