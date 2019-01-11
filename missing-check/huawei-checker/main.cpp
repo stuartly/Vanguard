@@ -55,7 +55,6 @@ int main(int argc, const char *argv[]) {
     process_file << "Initialize AST : " << float(clock() - start) / CLOCKS_PER_SEC << "sec" << std::endl;
 
     TaintChecker taint_checker;
-	DanglingPtr DPChecker;
     
     // non recursive callgraph
     NonRecursiveCallGraph nonRecursiveCallGraph(common::call_graph);
@@ -69,12 +68,7 @@ int main(int argc, const char *argv[]) {
         ASTFunction *F = *it;
         FunctionDecl *FD = common::manager->load(F);
         CFG *function_cfg = common::manager->getCFG(F, FD);
-
         taint_checker.check(F, FD, function_cfg);
-
-        if((*common::configure)["CheckerEnable"]["danglingPointer"].asBool()) {
-            DPChecker.check(F, FD, function_cfg);
-        }
         i++;
         process_bar(float(i) / topoOrder.size());
     }
@@ -82,13 +76,14 @@ int main(int argc, const char *argv[]) {
 
     taint_checker.build(topoOrder);
     
-    process_file << "DanglingPointer: " << float(DPChecker.get_time()) / CLOCKS_PER_SEC << "sec" << std::endl;
     process_file << "TaintChecker   : " << float(taint_checker.get_time()) / CLOCKS_PER_SEC << "sec" << std::endl;
     
     TaintedMemOPChecker MOPChecker;
     ArrayOutOfBoundsCheckerV4 arraybound;
     DivChecker div_checker;
     RecursiveCallChecker recursiveCallChecker; 
+    DanglingPtr DPChecker;
+
 
     std::cout << "MissingChecker : " << std::endl;
     unsigned j = 0;
@@ -97,7 +92,7 @@ int main(int argc, const char *argv[]) {
 
  
    for (std::string AST : ASTFiles) {
-	ast_num ++;
+	    ast_num ++;
         std::vector<ASTFunction *> ast_functions;
         std::vector<FunctionDecl *> functions;
         common::manager->load(AST, ast_functions, functions);
@@ -111,32 +106,42 @@ int main(int argc, const char *argv[]) {
             if((*common::configure)["CheckerEnable"]["recursiveCall"].asBool()) {
                 recursiveCallChecker.storeFunctionLocation(F, FD);
             }
-            if((*common::configure)["CheckerEnable"]["arrayBound"].asBool()) {
+
+            if((*common::configure)["CheckerEnable"]["arrayBound"].asBool()){
                 arraybound.check(F, FD, function_cfg);
             }
-            if((*common::configure)["CheckerEnable"]["divideChecker"].asBool()) {
+            
+            if((*common::configure)["CheckerEnable"]["divideChecker"].asBool()){
                 div_checker.check(F, FD, function_cfg);
-            }
-            if((*common::configure)["CheckerEnable"]["memoryOPChecker"].asBool()) {
+            }     
+
+            if((*common::configure)["CheckerEnable"]["memoryOPChecker"].asBool()){
                 MOPChecker.check(F, FD, function_cfg);
             }
+
+	        if((*common::configure)["CheckerEnable"]["danglingPointer"].asBool()){
+	           DPChecker.check(F, FD, function_cfg);
+            }  
+              
             j++;
             process_bar(float(j) / func_size);
         }
         common::manager->clear();
     }
+
     std::cout << std::endl;
     
 	if((*common::configure)["CheckerEnable"]["recursiveCall"].asBool()) {
         recursiveCallChecker.check();
     }
+
     process_file << "AST            : " << ast_num << std::endl;
     process_file << "Function       : " << func_num << std::endl;
     process_file << "RecursiveCall  : " << float(recursiveCallChecker.getRuntime()) / CLOCKS_PER_SEC << "sec" << std::endl;
     process_file << "ArrayBound     : " << float(arraybound.get_time()) / CLOCKS_PER_SEC << "sec" << std::endl;
     process_file << "DivChecker     : " << float(div_checker.get_time()) / CLOCKS_PER_SEC << "sec" << std::endl;
     process_file << "MemoryOPChecker: " << float(MOPChecker.get_time()) / CLOCKS_PER_SEC << "sec" << std::endl;
-    
+    process_file << "DanglingPointer: " << float(DPChecker.get_time()) / CLOCKS_PER_SEC << "sec" << std::endl;    
     process_file << "total time : " << float(clock() - start) / CLOCKS_PER_SEC << "sec" << std::endl;
 
     return 0;
