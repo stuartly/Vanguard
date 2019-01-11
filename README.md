@@ -5,7 +5,7 @@
 
 + install llvm-3.6.0 and clang-3.6.0
 	+ download llvm-3.6.0 and clang-3.6.0 from the [link](http://releases.llvm.org/download.html#3.6.0)
-	+ install them as the [tutoral](https://clang.llvm.org/get_started.html)
+	+ install them as the [tutorial](https://clang.llvm.org/get_started.html)
 
 
 + install missing check tool
