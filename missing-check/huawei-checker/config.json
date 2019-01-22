@@ -49,10 +49,6 @@
     },
 
     "MemoryOPFunction" : {
-        "VOS_MemAlloc"  : 2,
-        "VOS_MemSet"    : 2,
-        "VOS_MemCpy"    : 2,
-        "VOS_MemMove"   : 2,
         "memset"        : 2,
         "memmove"       : 2,
         "memcpy"        : 2,
@@ -66,10 +62,6 @@
     },
 
     "MemoryOPCheckStyle" : {
-        "VOS_MemAlloc"  : "b > 50",
-        "VOS_MemSet"    : "b > 50",
-        "VOS_MemCpy"    : "b > 50",
-        "VOS_MemMove"   : "b > 50",
         "memmove"       : "b > 50",
         "memset"        : "b > 50",
         "memcpy"        : "b > 50",

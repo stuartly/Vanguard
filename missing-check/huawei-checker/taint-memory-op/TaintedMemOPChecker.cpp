@@ -218,18 +218,15 @@ void TaintedMemOPChecker::readConfig()
 //determine whether it is a memory operation function by comparing the funcation name
 bool TaintedMemOPChecker::is_MemOP(std::string calleeName)	
 {
-	// all the functin is security-sensitive function
-	location_of_Arg_str="all";
-	return true;
 
 	std::unordered_map<std::string, std::string>::iterator got = MemoryOPFunction.find(calleeName);	
 	if(got == MemoryOPFunction.end())
 	{
+		
         return false;
 	}
    	 else
 	{
-		//string args=got->second;	
 		location_of_Arg_str=got->second;
 		common::printLog(calleeName + location_of_Arg_str +" is a memory operation function!\n", common::CheckerName::memoryOPChecker, 5,*common::configure);
         return true;
@@ -239,7 +236,6 @@ bool TaintedMemOPChecker::is_MemOP(std::string calleeName)
 
 bool TaintedMemOPChecker::is_Tainted(Expr *arg)
 {
-	
 	
 	if(RecordfunDel!=nullptr&&Recordblock!=nullptr&&Recordstmt!=nullptr&&RecordcallExpr!=nullptr&&arg!=nullptr)
 	 {
@@ -935,7 +931,7 @@ bool  TaintedMemOPChecker::is_right_ifCheck(string Tainted_MemOPName, unordered_
 
 
 
-int TaintedMemOPChecker::is_dangerous_missing_check(ASTFunction* caller,CallExpr* MemOPcallExpr,FunctionDecl* callee)
+int TaintedMemOPChecker::estimate_risk(ASTFunction* caller,CallExpr* MemOPcallExpr,FunctionDecl* callee)
 { 
 	clock_t Confirm_start=clock();
 
@@ -1060,11 +1056,11 @@ void TaintedMemOPChecker::OneCheck(ASTFunction* caller)
 {
 	    string CallStack="";
 
-	    int risk = is_dangerous_missing_check(caller,RecordcallExpr,RecordCallee);
+	    int risk = estimate_risk(caller,RecordcallExpr,RecordCallee);
 
 		if(!has_ifCheck(caller))
 		{   
-			if(risk > 50)
+			if(risk > 10)
 			{
 				CallStack=Tainted_FunctionName +"; " +Tainted_MemOPName +"\n";	
 				Tainted_Description="\n["+Tainted_MemOPName+"]"+" is a memory operation function using tainted data: ["+Tainted_Data+ "]\n"+"Location : ["+Tainted_MemOP_location+"]\n"+"Call Stack:\n"+ CallStack;
@@ -1076,7 +1072,7 @@ void TaintedMemOPChecker::OneCheck(ASTFunction* caller)
 		else if(!is_right_ifCheck(Tainted_MemOPName,Tainted_Data_Expr_Set,IfCheckInfoList))
 			 {
 					
-				if(risk > 50)
+				if(risk > 10)
 				{
 					CallStack=Tainted_FunctionName +"; " +Tainted_MemOPName +"\n";	
 					Tainted_Description="\n["+Tainted_MemOPName+"]"+" is a memory operation function using tainted data: ["+Tainted_Data+ "]\n"+"Location : ["+Tainted_MemOP_location+"]\n"+"Call Stack:\n"+ CallStack;
@@ -1094,7 +1090,7 @@ void TaintedMemOPChecker::TwoCheck(ASTFunction* caller)
 	    //string refer=CheckDataSet::PreCheckDataSet::SearchRefeCheck(Tainted_MemOPName);
 	    string CallStack="";
 
-	    int risk = is_dangerous_missing_check(caller,RecordcallExpr,RecordCallee);	
+	    int risk = estimate_risk(caller,RecordcallExpr,RecordCallee);	
 	
 		if(!has_ifCheck(caller))
 		{	
@@ -1105,11 +1101,11 @@ void TaintedMemOPChecker::TwoCheck(ASTFunction* caller)
 					for(ASTFunction * Pcaller: ParentCallers)
 					{	
 						Caller2=Pcaller->getName();
-						int risk = is_dangerous_missing_check(Pcaller,RecordcallExpr,RecordCallee);	
+						int risk = estimate_risk(Pcaller,RecordcallExpr,RecordCallee);	
 
 						if(!has_ifCheck(Pcaller))
 							{
-								if(risk > 50)
+								if(risk > 10)
 								{
 									CallStack=Tainted_FunctionName +"; " +Tainted_MemOPName +"\n";	
 									Tainted_Description="\n["+Tainted_MemOPName+"]"+" is a memory operation function using tainted data: ["+Tainted_Data+ "]\n"+"Location : ["+Tainted_MemOP_location+"]\n"+"Call Stack:\n"+ CallStack;
@@ -1121,7 +1117,7 @@ void TaintedMemOPChecker::TwoCheck(ASTFunction* caller)
 						else if(!is_right_ifCheck(Tainted_MemOPName,Tainted_Data_Expr_Set,IfCheckInfoList))
 								{
 									
-									if(risk > 50)
+									if(risk > 10)
 									{
 										CallStack=Tainted_FunctionName +"; " +Tainted_MemOPName +"\n";	
 										Tainted_Description="\n["+Tainted_MemOPName+"]"+" is a memory operation function using tainted data: ["+Tainted_Data+ "]\n"+"Location : ["+Tainted_MemOP_location+"]\n"+"Call Stack:\n"+ CallStack;
@@ -1158,10 +1154,10 @@ void TaintedMemOPChecker::TwoCheck(ASTFunction* caller)
 					{	
 						//FunctionDecl* fNode = manager->getFunctionDecl(Pcaller);
 						Caller2=Pcaller->getName();
-						int risk = is_dangerous_missing_check(Pcaller,RecordcallExpr,RecordCallee);	
+						int risk = estimate_risk(Pcaller,RecordcallExpr,RecordCallee);	
 						if(!has_ifCheck(Pcaller))
 							{
-								if(risk > 50)
+								if(risk > 10)
 									{
 										CallStack=Tainted_FunctionName +"; " +Tainted_MemOPName +"\n";	
 										Tainted_Description="\n["+Tainted_MemOPName+"]"+" is a memory operation function using tainted data: ["+Tainted_Data+ "]\n"+"Location : ["+Tainted_MemOP_location+"]\n"+"Call Stack:\n"+ CallStack;
@@ -1171,7 +1167,7 @@ void TaintedMemOPChecker::TwoCheck(ASTFunction* caller)
 							}
 						else if(!is_right_ifCheck(Tainted_MemOPName,Tainted_Data_Expr_Set,IfCheckInfoList))
 							{
-								if(risk > 50)
+								if(risk > 10)
 									{
 										CallStack=Tainted_FunctionName +"; " +Tainted_MemOPName +"\n";	
 										Tainted_Description="\n["+Tainted_MemOPName+"]"+" is a memory operation function using tainted data: ["+Tainted_Data+ "]\n"+"Location : ["+Tainted_MemOP_location+"]\n"+"Call Stack:\n"+ CallStack;
@@ -1211,14 +1207,14 @@ void TaintedMemOPChecker::N_Level_Check( ASTFunction* caller,int N)
 		N=1;		
 	}	
 	
-	if(N==1)
-	{
-		TwoCheck(caller);		
-	}
-
 	if(N==0)
 	{
-		OneCheck(caller);
+		OneCheck(caller);	
+	}
+
+	if(N==1)
+	{
+		TwoCheck(caller);	
 	}
    
 }
@@ -1265,9 +1261,7 @@ void TaintedMemOPChecker::visitCallExpr(CallExpr* callExpr, ASTFunction* caller)
     if(!is_MemOP(calleeName))
     {
         return;
-    }
-    else
-    {
+    }else{
 		
         SourceManager *sm;
         sm = &(functionDecl->getASTContext().getSourceManager());

@@ -196,7 +196,7 @@ class TaintedMemOPChecker
 		bool is_Relevent_String(std::string if_condition_string,std::string Tainted_Data_Expr_string);
 		bool is_Relevent_Expr(Expr* if_condition, Expr* Tainted_Data_Expr);	
 		bool is_Equal_String(std::string if_condition, std::string rightCheckStlye);
-		int is_dangerous_missing_check(ASTFunction* caller,CallExpr* MemOPcallExpr,FunctionDecl* callee);	
+		int  estimate_risk(ASTFunction* caller,CallExpr* MemOPcallExpr,FunctionDecl* callee);	
 	
 		void N_Level_Check( ASTFunction *caller,int N);
 		void writingToXML(std::string fileName, std::string funName, std::string descr, std::string locLine, std::string risk);
