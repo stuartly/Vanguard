@@ -1,9 +1,9 @@
 {
     "CheckerEnable" : {
         "taintChecker"      : true,
-        "danglingPointer"   : false,
+        "danglingPointer"   : true,
         "arrayBound"        : true,
-        "recursiveCall"     : false,
+        "recursiveCall"     : true,
         "divideChecker"     : true,
         "memoryOPChecker"   : true
     },
@@ -49,27 +49,29 @@
     },
 
     "MemoryOPFunction" : {
-        "VOS_MemAlloc"  : 2,
-        "VOS_MemSet"    : 2,
-        "VOS_MemCpy"    : 2,
-        "VOS_MemMove"   : 2,
-        "memset"        : 2,
-        "memmove"       : 2,
-        "memcpy"        : 2,
+        "memset"        : "0+2",
+        "memmove"       : "0+2",
+        "memcpy"        : "0+2",
         "malloc"        : 0,
         "calloc"        : 0,
         "memcpy_s"      : 1,
         "memset_s"      : 1,
-        "strcpy_s"      : 1,
-        "strncpy_s"     : 1,
-        "strcat_s"      : 1,
-        "strncat_s"     : 1,
+	"strcpy"	: "0+1",
+        "strcpy_s"      : "0+1",
+        "strncpy_s"     : "0+2",
+	"strncpy"	: "0+2",
+	"strcat"	: "0+1", 
+        "strcat_s"      : "0+1",
+	"strncat"	: "0+2",
+        "strncat_s"     : "0+2",
         "sprintf_s"     : 1,
-        "snprintf_s"    : 1
+        "snprintf_s"    : 1,
+	"free"		: 0
     },
 
     "SimpleExprCheckOnly" : {
-        "MemopSimpleValue"  : true
+        "MemopSimpleValue"  : true,
+        "ReferableRepair": true
     },
 
     "MemoryOPCheckStyle" : {
@@ -86,7 +88,7 @@
     },
 
     "MemOPCheckLevel" : {
-       "N"  : 1
+       "N"  : 0
     },
 
     "RightIfCheckMode" : {

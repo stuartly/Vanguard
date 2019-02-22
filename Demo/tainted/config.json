@@ -1,9 +1,9 @@
 {
     "CheckerEnable" : {
         "taintChecker"      : true,
-        "danglingPointer"   : false,
+        "danglingPointer"   : true,
         "arrayBound"        : true,
-        "recursiveCall"     : false,
+        "recursiveCall"     : true,
         "divideChecker"     : true,
         "memoryOPChecker"   : true
     },
@@ -49,10 +49,6 @@
     },
 
     "MemoryOPFunction" : {
-        "VOS_MemAlloc"  : 2,
-        "VOS_MemSet"    : 2,
-        "VOS_MemCpy"    : 2,
-        "VOS_MemMove"   : 2,
         "memset"        : 2,
         "memmove"       : 2,
         "memcpy"        : 2,
@@ -69,7 +65,8 @@
     },
 
     "SimpleExprCheckOnly" : {
-        "MemopSimpleValue"  : true
+        "MemopSimpleValue"  : true,
+        "ReferableRepair": true
     },
 
     "MemoryOPCheckStyle" : {
@@ -86,7 +83,7 @@
     },
 
     "MemOPCheckLevel" : {
-       "N"  : 1
+       "N"  : 0
     },
 
     "RightIfCheckMode" : {
