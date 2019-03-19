@@ -10,7 +10,7 @@
 
 + install missing check tool
 	```
-	cp -rf missing-check/huawei-checker llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/
+	cp -rf missing-check/Vanguard llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/
 	vim llvm-3.6.0/llvm-3.6.0.src/tools/clang/tools/Cmakelist.txt and add "add_subdirectory(Vanguard)"
 	cd llvm-3.6.0
 	mkdir llvm-3.6.0.build
