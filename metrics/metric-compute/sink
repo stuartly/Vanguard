@@ -1,0 +1,11 @@
+fwrite
+fputc
+putc
+fputwc
+putwc
+fputs
+fputws
+putchar
+putwchar
+puts
+perror
