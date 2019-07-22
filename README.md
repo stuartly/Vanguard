@@ -31,13 +31,5 @@
 	./linux_x86.sh
 	./llvm-3.6/llvm-3.6.0.build/bin/Vanguard Demo/tainted/astList.txt Demo/tainted/config.json
 
-## Reference
-	@inproceedings{situ2018detecting,
-	  title={Detecting missing checks for identifying insufficient attack protections},
-	  author={Situ, Lingyun and Zou, Liang and Wang, Linzhang and Liu, Yang and Mao, Bing and Li, Xuandong},
-	  booktitle={Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings},
-	  pages={238--239},
-	  year={2018},
-	  organization={ACM}
-	}
+
 
