@@ -1,5 +1,3 @@
-## Vanguard
-
 
 ## Install
 
