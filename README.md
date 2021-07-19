@@ -28,6 +28,14 @@
 	cd Demo/tainted
 	./linux_x86.sh
 	./llvm-3.6/llvm-3.6.0.build/bin/Vanguard Demo/tainted/astList.txt Demo/tainted/config.json
+	
+## Reference
+```
+[1] Situ L Y, Wang L Z, Liu Y, et al. Automatic Detection and Repair Recommendation for Missing Checks[J]. Journal of Computer Science and Technology, 2019, 34(5): 972-992.
+[2] Situ L, Wang L, Liu Y, et al. Vanguard: Detecting missing checks for prognosing potential vulnerabilities[C]//Proceedings of the Tenth Asia-Pacific Symposium on Internetware. 2018: 1-10.]
+```
+
+
 
 
 
