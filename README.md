@@ -31,8 +31,24 @@
 	
 ## Reference
 ```
-[1] Situ L Y, Wang L Z, Liu Y, et al. Automatic Detection and Repair Recommendation for Missing Checks[J]. Journal of Computer Science and Technology, 2019, 34(5): 972-992.
-[2] Situ L, Wang L, Liu Y, et al. Vanguard: Detecting missing checks for prognosing potential vulnerabilities[C]//Proceedings of the Tenth Asia-Pacific Symposium on Internetware. 2018: 1-10.]
+@article{situ2019automatic,
+  title={Automatic detection and repair recommendation for missing checks},
+  author={Situ, Ling-Yun and Wang, Lin-Zhang and Liu, Yang and Mao, Bing and Li, Xuan-Dong},
+  journal={Journal of Computer Science and Technology},
+  volume={34},
+  number={5},
+  pages={972--992},
+  year={2019},
+  publisher={Springer}
+}
+
+@inproceedings{situ2018vanguard,
+  title={Vanguard: Detecting missing checks for prognosing potential vulnerabilities},
+  author={Situ, Lingyun and Wang, Linzhang and Liu, Yang and Mao, Bing and Li, Xuandong},
+  booktitle={Proceedings of the Tenth Asia-Pacific Symposium on Internetware},
+  pages={1--10},
+  year={2018}
+}
 ```
 
 
